@@ -1,0 +1,2551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2025-08-07 23:53:51 by epics-->
+<display version="2.0.0">
+  <name>SSRL Continuous Scan Control</name>
+  <x>64</x>
+  <y>89</y>
+  <width>750</width>
+  <height>613</height>
+  <background_color>
+    <color name="grey-8" red="133" green="133" blue="133">
+    </color>
+  </background_color>
+  <grid_step_x>4</grid_step_x>
+  <grid_step_y>4</grid_step_y>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM activeRectangleClass_3</name>
+    <y>62</y>
+    <width>780</width>
+    <height>380</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="GLOBAL canvas" red="200" green="200" blue="200">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="GLOBAL canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM activeRectangleClass</name>
+    <x>1</x>
+    <width>769</width>
+    <height>40</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="FE title" red="183" green="164" blue="126">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="FE title" red="183" green="164" blue="126">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>$(NAME)</text>
+    <x>15</x>
+    <y>12</y>
+    <width>180</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black-14" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="choice" version="2.0.0">
+    <name>EDM activeChoiceButtonClass_2</name>
+    <pv_name>LOC\\\\WhichOne=e:0, Trigger / DAC Ctrl, DOUT Ctrl, DAQ Include, Motor Ctrl</pv_name>
+    <x>1</x>
+    <y>40</y>
+    <width>769</width>
+    <height>22</height>
+    <font>
+      <font family="Liberation Mono" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black-14" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-8" red="133" green="133" blue="133">
+      </color>
+    </background_color>
+    <selected_color>
+      <color name="GLOBAL canvas" red="200" green="200" blue="200">
+      </color>
+    </selected_color>
+    <items>
+      <item>Item 1</item>
+      <item>Item 2</item>
+    </items>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button</name>
+    <x>792</x>
+    <y>168</y>
+    <width>8</width>
+    <height>1</height>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_1</name>
+    <actions>
+      <action type="open_display">
+        <description>$(NAME):MOTOR1.DESC</description>
+        <file>csm_main.opi</file>
+        <macros>
+          <MOTOR>$(NAME):MOTOR1</MOTOR>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <x>107</x>
+    <y>76</y>
+    <width>60</width>
+    <height>20</height>
+    <foreground_color>
+      <color red="0" green="0" blue="255">
+      </color>
+    </foreground_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_2</name>
+    <actions>
+      <action type="open_display">
+        <description>$(NAME):MOTOR2.DESC</description>
+        <file>csm_main.opi</file>
+        <macros>
+          <MOTOR>$(NAME):MOTOR2</MOTOR>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <x>185</x>
+    <y>76</y>
+    <width>60</width>
+    <height>20</height>
+    <foreground_color>
+      <color red="0" green="0" blue="255">
+      </color>
+    </foreground_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_3</name>
+    <actions>
+      <action type="open_display">
+        <description>$(NAME):MOTOR3.DESC</description>
+        <file>csm_main.opi</file>
+        <macros>
+          <MOTOR>$(NAME):MOTOR3</MOTOR>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <x>270</x>
+    <y>76</y>
+    <width>60</width>
+    <height>20</height>
+    <foreground_color>
+      <color red="0" green="0" blue="255">
+      </color>
+    </foreground_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_4</name>
+    <actions>
+      <action type="open_display">
+        <description>$(NAME):MOTOR3.DESC</description>
+        <file>csm_main.opi</file>
+        <macros>
+          <MOTOR>$(NAME):MOTOR4</MOTOR>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <x>355</x>
+    <y>76</y>
+    <width>60</width>
+    <height>20</height>
+    <foreground_color>
+      <color red="0" green="0" blue="255">
+      </color>
+    </foreground_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass_56</name>
+    <text>AUX 1-8</text>
+    <x>8</x>
+    <y>120</y>
+    <width>80</width>
+    <height>16</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black-14" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass_57</name>
+    <text>Raw CW  Limit</text>
+    <x>10</x>
+    <y>152</y>
+    <width>80</width>
+    <height>16</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black-14" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass_58</name>
+    <text>CW Limit</text>
+    <x>8</x>
+    <y>180</y>
+    <width>80</width>
+    <height>16</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black-14" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass_59</name>
+    <text>CW Pulse</text>
+    <x>10</x>
+    <y>208</y>
+    <width>80</width>
+    <height>16</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black-14" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass_60</name>
+    <text>CCW Pulse</text>
+    <x>10</x>
+    <y>236</y>
+    <width>80</width>
+    <height>16</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black-14" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass_61</name>
+    <text>CCW Limit</text>
+    <x>8</x>
+    <y>264</y>
+    <width>80</width>
+    <height>16</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black-14" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass_62</name>
+    <text>Raw CCW  Limit</text>
+    <y>296</y>
+    <width>90</width>
+    <height>16</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black-14" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass_63</name>
+    <text>AUX 9-16</text>
+    <x>6</x>
+    <y>324</y>
+    <width>80</width>
+    <height>16</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black-14" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass_64</name>
+    <text>Position</text>
+    <x>3</x>
+    <y>372</y>
+    <width>80</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black-14" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass_65</name>
+    <text>Encoder/LVDT</text>
+    <x>4</x>
+    <y>403</y>
+    <width>80</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="black-14" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_5</name>
+    <actions>
+      <action type="open_display">
+        <description>$(NAME):MOTOR5.DESC</description>
+        <file>csm_main.opi</file>
+        <macros>
+          <MOTOR>$(NAME):MOTOR5</MOTOR>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <x>440</x>
+    <y>76</y>
+    <width>60</width>
+    <height>20</height>
+    <foreground_color>
+      <color red="0" green="0" blue="255">
+      </color>
+    </foreground_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_6</name>
+    <actions>
+      <action type="open_display">
+        <description>$(NAME):MOTOR6.DESC</description>
+        <file>csm_main.opi</file>
+        <macros>
+          <MOTOR>$(NAME):MOTOR6</MOTOR>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <x>525</x>
+    <y>76</y>
+    <width>60</width>
+    <height>20</height>
+    <foreground_color>
+      <color red="0" green="0" blue="255">
+      </color>
+    </foreground_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_7</name>
+    <actions>
+      <action type="open_display">
+        <description>$(NAME):MOTOR7.DESC</description>
+        <file>csm_main.opi</file>
+        <macros>
+          <MOTOR>$(NAME):MOTOR7</MOTOR>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <x>610</x>
+    <y>76</y>
+    <width>60</width>
+    <height>20</height>
+    <foreground_color>
+      <color red="0" green="0" blue="255">
+      </color>
+    </foreground_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_8</name>
+    <actions>
+      <action type="open_display">
+        <description>$(NAME):MOTOR8.DESC</description>
+        <file>csm_main.opi</file>
+        <macros>
+          <MOTOR>$(NAME):MOTOR8</MOTOR>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <x>690</x>
+    <y>76</y>
+    <width>60</width>
+    <height>20</height>
+    <foreground_color>
+      <color red="0" green="0" blue="255">
+      </color>
+    </foreground_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update</name>
+    <pv_name>$(NAME):MOTOR1.RBV</pv_name>
+    <x>91</x>
+    <y>374</y>
+    <width>70</width>
+    <height>16</height>
+    <foreground_color>
+      <color red="0" green="255" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+    <precision>4</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_1</name>
+    <pv_name>$(NAME):MOTOR2.RBV</pv_name>
+    <x>172</x>
+    <y>374</y>
+    <width>70</width>
+    <height>16</height>
+    <foreground_color>
+      <color red="0" green="255" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+    <precision>4</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_2</name>
+    <pv_name>$(NAME):MOTOR3.RBV</pv_name>
+    <x>256</x>
+    <y>374</y>
+    <width>70</width>
+    <height>16</height>
+    <foreground_color>
+      <color red="0" green="255" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+    <precision>4</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_3</name>
+    <pv_name>$(NAME):MOTOR4.RBV</pv_name>
+    <x>346</x>
+    <y>374</y>
+    <width>70</width>
+    <height>16</height>
+    <foreground_color>
+      <color red="0" green="255" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+    <precision>4</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_4</name>
+    <pv_name>$(NAME):MOTOR5.RBV</pv_name>
+    <x>427</x>
+    <y>374</y>
+    <width>70</width>
+    <height>16</height>
+    <foreground_color>
+      <color red="0" green="255" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+    <precision>4</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_5</name>
+    <pv_name>$(NAME):MOTOR6.RBV</pv_name>
+    <x>511</x>
+    <y>374</y>
+    <width>70</width>
+    <height>16</height>
+    <foreground_color>
+      <color red="0" green="255" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+    <precision>4</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_6</name>
+    <pv_name>$(NAME):MOTOR7.RBV</pv_name>
+    <x>600</x>
+    <y>374</y>
+    <width>70</width>
+    <height>16</height>
+    <foreground_color>
+      <color red="0" green="255" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+    <precision>4</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_7</name>
+    <pv_name>$(NAME):MOTOR8.RBV</pv_name>
+    <x>681</x>
+    <y>374</y>
+    <width>70</width>
+    <height>16</height>
+    <foreground_color>
+      <color red="0" green="255" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+    <precision>4</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM activeXTextDspClass:noedit</name>
+    <pv_name>$(NAME):MOTOR1.REP</pv_name>
+    <x>91</x>
+    <y>404</y>
+    <width>70</width>
+    <height>16</height>
+    <foreground_color>
+      <color red="0" green="255" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+    <precision>0</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM activeXTextDspClass:noedit</name>
+    <pv_name>$(NAME):MOTOR2.REP</pv_name>
+    <x>172</x>
+    <y>404</y>
+    <width>70</width>
+    <height>16</height>
+    <foreground_color>
+      <color red="0" green="255" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+    <precision>0</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM activeXTextDspClass:noedit</name>
+    <pv_name>$(NAME):MOTOR3.REP</pv_name>
+    <x>256</x>
+    <y>404</y>
+    <width>70</width>
+    <height>16</height>
+    <foreground_color>
+      <color red="0" green="255" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+    <precision>0</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM activeXTextDspClass:noedit</name>
+    <pv_name>$(NAME):MOTOR4.REP</pv_name>
+    <x>346</x>
+    <y>404</y>
+    <width>70</width>
+    <height>16</height>
+    <foreground_color>
+      <color red="0" green="255" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+    <precision>0</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM activeXTextDspClass:noedit</name>
+    <pv_name>$(NAME):MOTOR5.REP</pv_name>
+    <x>427</x>
+    <y>404</y>
+    <width>70</width>
+    <height>16</height>
+    <foreground_color>
+      <color red="0" green="255" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+    <precision>0</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM activeXTextDspClass:noedit</name>
+    <pv_name>$(NAME):MOTOR6.REP</pv_name>
+    <x>511</x>
+    <y>404</y>
+    <width>70</width>
+    <height>16</height>
+    <foreground_color>
+      <color red="0" green="255" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+    <precision>0</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM activeXTextDspClass:noedit</name>
+    <pv_name>$(NAME):MOTOR7.REP</pv_name>
+    <x>600</x>
+    <y>404</y>
+    <width>70</width>
+    <height>16</height>
+    <foreground_color>
+      <color red="0" green="255" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+    <precision>0</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM activeXTextDspClass:noedit</name>
+    <pv_name>$(NAME):MOTOR8.REP</pv_name>
+    <x>681</x>
+    <y>404</y>
+    <width>70</width>
+    <height>16</height>
+    <foreground_color>
+      <color red="0" green="255" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+    <precision>0</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_151</name>
+    <x>132</x>
+    <y>180</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_158</name>
+    <x>132</x>
+    <y>180</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="vis_if_not_zero" prop_id="visible" out_exp="false">
+        <exp bool_exp="!(pv0!=0)">
+          <value>false</value>
+        </exp>
+        <pv_name>$(NAME):MOTOR1.HLS</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_164</name>
+    <x>205</x>
+    <y>180</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_165</name>
+    <x>205</x>
+    <y>180</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="vis_if_not_zero" prop_id="visible" out_exp="false">
+        <exp bool_exp="!(pv0!=0)">
+          <value>false</value>
+        </exp>
+        <pv_name>$(NAME):MOTOR2.HLS</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_166</name>
+    <x>286</x>
+    <y>180</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_167</name>
+    <x>286</x>
+    <y>180</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="vis_if_not_zero" prop_id="visible" out_exp="false">
+        <exp bool_exp="!(pv0!=0)">
+          <value>false</value>
+        </exp>
+        <pv_name>$(NAME):MOTOR3.HLS</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_170</name>
+    <x>375</x>
+    <y>180</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_171</name>
+    <x>375</x>
+    <y>180</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="vis_if_not_zero" prop_id="visible" out_exp="false">
+        <exp bool_exp="!(pv0!=0)">
+          <value>false</value>
+        </exp>
+        <pv_name>$(NAME):MOTOR4.HLS</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_172</name>
+    <x>460</x>
+    <y>180</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_173</name>
+    <x>460</x>
+    <y>180</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="vis_if_not_zero" prop_id="visible" out_exp="false">
+        <exp bool_exp="!(pv0!=0)">
+          <value>false</value>
+        </exp>
+        <pv_name>$(NAME):MOTOR5.HLS</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_174</name>
+    <x>550</x>
+    <y>180</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_175</name>
+    <x>550</x>
+    <y>180</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="vis_if_not_zero" prop_id="visible" out_exp="false">
+        <exp bool_exp="!(pv0!=0)">
+          <value>false</value>
+        </exp>
+        <pv_name>$(NAME):MOTOR6.HLS</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_176</name>
+    <x>630</x>
+    <y>180</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_177</name>
+    <x>630</x>
+    <y>180</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="vis_if_not_zero" prop_id="visible" out_exp="false">
+        <exp bool_exp="!(pv0!=0)">
+          <value>false</value>
+        </exp>
+        <pv_name>$(NAME):MOTOR7.HLS</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_178</name>
+    <x>710</x>
+    <y>180</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_179</name>
+    <x>710</x>
+    <y>180</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="vis_if_not_zero" prop_id="visible" out_exp="false">
+        <exp bool_exp="!(pv0!=0)">
+          <value>false</value>
+        </exp>
+        <pv_name>$(NAME):MOTOR8.HLS</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_180</name>
+    <x>132</x>
+    <y>152</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_181</name>
+    <x>132</x>
+    <y>152</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="vis_if_not_zero" prop_id="visible" out_exp="false">
+        <exp bool_exp="!(pv0!=0)">
+          <value>false</value>
+        </exp>
+        <pv_name>$(NAME):MOTOR1.RHLS</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_182</name>
+    <x>205</x>
+    <y>152</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_183</name>
+    <x>205</x>
+    <y>152</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="vis_if_not_zero" prop_id="visible" out_exp="false">
+        <exp bool_exp="!(pv0!=0)">
+          <value>false</value>
+        </exp>
+        <pv_name>$(NAME):MOTOR2.RHLS</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_184</name>
+    <x>286</x>
+    <y>152</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_185</name>
+    <x>286</x>
+    <y>152</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="vis_if_not_zero" prop_id="visible" out_exp="false">
+        <exp bool_exp="!(pv0!=0)">
+          <value>false</value>
+        </exp>
+        <pv_name>$(NAME):MOTOR3.RHLS</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_186</name>
+    <x>375</x>
+    <y>152</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_187</name>
+    <x>375</x>
+    <y>152</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="vis_if_not_zero" prop_id="visible" out_exp="false">
+        <exp bool_exp="!(pv0!=0)">
+          <value>false</value>
+        </exp>
+        <pv_name>$(NAME):MOTOR4.RHLS</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_188</name>
+    <x>460</x>
+    <y>152</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_189</name>
+    <x>460</x>
+    <y>152</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="vis_if_not_zero" prop_id="visible" out_exp="false">
+        <exp bool_exp="!(pv0!=0)">
+          <value>false</value>
+        </exp>
+        <pv_name>$(NAME):MOTOR5.RHLS</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_190</name>
+    <x>550</x>
+    <y>152</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_191</name>
+    <x>550</x>
+    <y>152</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="vis_if_not_zero" prop_id="visible" out_exp="false">
+        <exp bool_exp="!(pv0!=0)">
+          <value>false</value>
+        </exp>
+        <pv_name>$(NAME):MOTOR6.RHLS</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_192</name>
+    <x>630</x>
+    <y>152</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_193</name>
+    <x>630</x>
+    <y>152</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="vis_if_not_zero" prop_id="visible" out_exp="false">
+        <exp bool_exp="!(pv0!=0)">
+          <value>false</value>
+        </exp>
+        <pv_name>$(NAME):MOTOR7.RHLS</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_194</name>
+    <x>710</x>
+    <y>152</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_195</name>
+    <x>710</x>
+    <y>152</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="vis_if_not_zero" prop_id="visible" out_exp="false">
+        <exp bool_exp="!(pv0!=0)">
+          <value>false</value>
+        </exp>
+        <pv_name>$(NAME):MOTOR8.RHLS</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_196</name>
+    <x>132</x>
+    <y>264</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_197</name>
+    <x>132</x>
+    <y>264</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="vis_if_not_zero" prop_id="visible" out_exp="false">
+        <exp bool_exp="!(pv0!=0)">
+          <value>false</value>
+        </exp>
+        <pv_name>$(NAME):MOTOR1.LLS</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_198</name>
+    <x>205</x>
+    <y>264</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_199</name>
+    <x>205</x>
+    <y>264</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="vis_if_not_zero" prop_id="visible" out_exp="false">
+        <exp bool_exp="!(pv0!=0)">
+          <value>false</value>
+        </exp>
+        <pv_name>$(NAME):MOTOR2.LLS</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_200</name>
+    <x>286</x>
+    <y>264</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_201</name>
+    <x>286</x>
+    <y>264</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="vis_if_not_zero" prop_id="visible" out_exp="false">
+        <exp bool_exp="!(pv0!=0)">
+          <value>false</value>
+        </exp>
+        <pv_name>$(NAME):MOTOR3.LLS</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_202</name>
+    <x>375</x>
+    <y>264</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="vis_if_not_zero" prop_id="visible" out_exp="false">
+        <exp bool_exp="!(pv0!=1)">
+          <value>true</value>
+        </exp>
+        <pv_name>$(NAME):MOTOR4.LLS</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_203</name>
+    <x>375</x>
+    <y>264</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="vis_if_not_zero" prop_id="visible" out_exp="false">
+        <exp bool_exp="!(pv0!=0)">
+          <value>false</value>
+        </exp>
+        <pv_name>$(NAME):MOTOR4.LLS</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_204</name>
+    <x>460</x>
+    <y>264</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_205</name>
+    <x>460</x>
+    <y>264</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="vis_if_not_zero" prop_id="visible" out_exp="false">
+        <exp bool_exp="!(pv0!=0)">
+          <value>false</value>
+        </exp>
+        <pv_name>$(NAME):MOTOR5.LLS</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_206</name>
+    <x>550</x>
+    <y>264</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_207</name>
+    <x>550</x>
+    <y>264</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="vis_if_not_zero" prop_id="visible" out_exp="false">
+        <exp bool_exp="!(pv0!=0)">
+          <value>false</value>
+        </exp>
+        <pv_name>$(NAME):MOTOR6.LLS</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_208</name>
+    <x>630</x>
+    <y>264</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_209</name>
+    <x>630</x>
+    <y>264</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="vis_if_not_zero" prop_id="visible" out_exp="false">
+        <exp bool_exp="!(pv0!=0)">
+          <value>false</value>
+        </exp>
+        <pv_name>$(NAME):MOTOR7.LLS</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_210</name>
+    <x>710</x>
+    <y>264</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_211</name>
+    <x>710</x>
+    <y>264</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="vis_if_not_zero" prop_id="visible" out_exp="false">
+        <exp bool_exp="!(pv0!=0)">
+          <value>false</value>
+        </exp>
+        <pv_name>$(NAME):MOTOR8.LLS</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_212</name>
+    <x>132</x>
+    <y>296</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_213</name>
+    <x>132</x>
+    <y>296</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="vis_if_not_zero" prop_id="visible" out_exp="false">
+        <exp bool_exp="!(pv0!=0)">
+          <value>false</value>
+        </exp>
+        <pv_name>$(NAME):MOTOR1.RLLS</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_214</name>
+    <x>205</x>
+    <y>296</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_215</name>
+    <x>206</x>
+    <y>296</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="vis_if_not_zero" prop_id="visible" out_exp="false">
+        <exp bool_exp="!(pv0!=1)">
+          <value>false</value>
+        </exp>
+        <pv_name>$(NAME):MOTOR2.RLLS</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_216</name>
+    <x>286</x>
+    <y>296</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_217</name>
+    <x>286</x>
+    <y>296</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="vis_if_not_zero" prop_id="visible" out_exp="false">
+        <exp bool_exp="!(pv0!=0)">
+          <value>false</value>
+        </exp>
+        <pv_name>$(NAME):MOTOR3.RLLS</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_218</name>
+    <x>375</x>
+    <y>296</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_219</name>
+    <x>375</x>
+    <y>296</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="vis_if_not_zero" prop_id="visible" out_exp="false">
+        <exp bool_exp="!(pv0!=0)">
+          <value>false</value>
+        </exp>
+        <pv_name>$(NAME):MOTOR4.RLLS</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_220</name>
+    <x>460</x>
+    <y>296</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_221</name>
+    <x>460</x>
+    <y>296</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="vis_if_not_zero" prop_id="visible" out_exp="false">
+        <exp bool_exp="!(pv0!=0)">
+          <value>false</value>
+        </exp>
+        <pv_name>$(NAME):MOTOR5.RLLS</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_222</name>
+    <x>550</x>
+    <y>296</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_223</name>
+    <x>550</x>
+    <y>296</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="vis_if_not_zero" prop_id="visible" out_exp="false">
+        <exp bool_exp="!(pv0!=0)">
+          <value>false</value>
+        </exp>
+        <pv_name>$(NAME):MOTOR6.RLLS</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_224</name>
+    <x>630</x>
+    <y>296</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_225</name>
+    <x>630</x>
+    <y>296</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="vis_if_not_zero" prop_id="visible" out_exp="false">
+        <exp bool_exp="!(pv0!=0)">
+          <value>false</value>
+        </exp>
+        <pv_name>$(NAME):MOTOR7.RLLS</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_226</name>
+    <x>710</x>
+    <y>296</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_227</name>
+    <x>710</x>
+    <y>296</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="vis_if_not_zero" prop_id="visible" out_exp="false">
+        <exp bool_exp="!(pv0!=0)">
+          <value>false</value>
+        </exp>
+        <pv_name>$(NAME):MOTOR8.RLLS</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>MOTOR 1-8</name>
+    <actions>
+      <action type="open_display">
+        <description>MOTOR 1-8</description>
+        <file>cs_main.opi</file>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text>$(action)</text>
+    <x>167</x>
+    <y>12</y>
+    <width>164</width>
+    <height>32</height>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_9</name>
+    <actions>
+      <action type="open_display">
+        <description>Open Display</description>
+        <file>m8_main.opi</file>
+        <target>tab</target>
+      </action>
+    </actions>
+    <x>476</x>
+    <y>12</y>
+    <width>180</width>
+    <height>36</height>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_230</name>
+    <x>132</x>
+    <y>208</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_231</name>
+    <x>132</x>
+    <y>236</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_232</name>
+    <x>205</x>
+    <y>208</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_233</name>
+    <x>205</x>
+    <y>236</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_234</name>
+    <x>286</x>
+    <y>208</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_235</name>
+    <x>286</x>
+    <y>236</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_236</name>
+    <x>375</x>
+    <y>208</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_237</name>
+    <x>375</x>
+    <y>236</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_238</name>
+    <x>460</x>
+    <y>208</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_239</name>
+    <x>460</x>
+    <y>236</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_240</name>
+    <x>550</x>
+    <y>208</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_241</name>
+    <x>550</x>
+    <y>236</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_242</name>
+    <x>630</x>
+    <y>208</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_243</name>
+    <x>630</x>
+    <y>236</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_244</name>
+    <x>710</x>
+    <y>208</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_245</name>
+    <x>710</x>
+    <y>236</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_246</name>
+    <x>132</x>
+    <y>120</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_247</name>
+    <x>205</x>
+    <y>120</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_248</name>
+    <x>286</x>
+    <y>120</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_249</name>
+    <x>375</x>
+    <y>120</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_250</name>
+    <x>460</x>
+    <y>120</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_251</name>
+    <x>550</x>
+    <y>120</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_252</name>
+    <x>630</x>
+    <y>120</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_253</name>
+    <x>710</x>
+    <y>120</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_254</name>
+    <x>132</x>
+    <y>324</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_255</name>
+    <x>205</x>
+    <y>324</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_256</name>
+    <x>286</x>
+    <y>324</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_257</name>
+    <x>375</x>
+    <y>324</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_258</name>
+    <x>460</x>
+    <y>324</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_259</name>
+    <x>550</x>
+    <y>324</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_260</name>
+    <x>630</x>
+    <y>324</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_261</name>
+    <x>710</x>
+    <y>324</y>
+    <width>16</width>
+    <height>16</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+</display>
