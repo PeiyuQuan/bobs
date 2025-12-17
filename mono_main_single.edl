@@ -1,0 +1,5421 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 600
+y 230
+w 729
+h 517
+font "helvetica-medium-r-18.0"
+ctlFont "helvetica-medium-r-18.0"
+btnFont "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 8
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+title "SSRL Monochromator Control"
+showGrid
+snapToGrid
+gridSize 4
+endScreenProperties
+
+# (Choice Button)
+object activeChoiceButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 4
+y 4
+w 721
+h 22
+fgColor index 25
+bgColor index 8
+selectColor index 3
+inconsistentColor index 14
+topShadowColor index 8
+botShadowColor index 8
+controlPv "LOC\\\\WhichOne=e:0, Instrument View, Controls with Guide, Settings & Init"
+font "courier-bold-r-14.0"
+orientation "horizontal"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 4
+y 26
+w 720
+h 443
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 4
+y 26
+w 720
+h 443
+lineColor index 3
+fill
+fillColor index 3
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 270
+y 78
+w 12
+h 12
+lineColor index 18
+fill
+fillColor index 18
+visPv "$(NAME).VS02"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 78
+w 260
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+fgColor index 18
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS02"
+visMin "0"
+visMax "1"
+value {
+  "MPS good"
+}
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 270
+y 78
+w 12
+h 12
+lineColor index 42
+fill
+fillColor index 42
+visPv "$(NAME).VS02"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 78
+w 260
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+fgColor index 42
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS02"
+visMin "1"
+visMax "2"
+value {
+  "MPS Fault"
+}
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 270
+y 78
+w 12
+h 12
+lineColor index 22
+fill
+fillColor index 22
+visPv "$(NAME).VS02"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 78
+w 260
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS02"
+visMin "2"
+visMax "3"
+value {
+  "MPS Fault"
+}
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 270
+y 105
+w 12
+h 12
+lineColor index 18
+fill
+fillColor index 18
+visPv "$(NAME).VS05"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 105
+w 260
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+fgColor index 18
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS05"
+visMin "0"
+visMax "1"
+value {
+  "Diagnostic paddle out"
+}
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 270
+y 105
+w 12
+h 12
+lineColor index 42
+fill
+fillColor index 42
+visPv "$(NAME).VS05"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 105
+w 260
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+fgColor index 42
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS05"
+visMin "1"
+visMax "2"
+value {
+  "Diagnostic paddle not out"
+}
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 270
+y 105
+w 12
+h 12
+lineColor index 22
+fill
+fillColor index 22
+visPv "$(NAME).VS05"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 105
+w 260
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS05"
+visMin "2"
+visMax "3"
+value {
+  "Diagnostic paddle not out"
+}
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 270
+y 132
+w 12
+h 12
+lineColor index 18
+fill
+fillColor index 18
+visPv "$(NAME).VS06"
+visMin "0"
+visMax "2"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 132
+w 260
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+fgColor index 18
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS06"
+visMin "0"
+visMax "1"
+value {
+  "Gap brake extended"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 132
+w 260
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+fgColor index 18
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS06"
+visMin "1"
+visMax "2"
+value {
+  "Gap brake retracted"
+}
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 270
+y 132
+w 12
+h 12
+lineColor index 42
+fill
+fillColor index 42
+visPv "$(NAME).VS06"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 132
+w 260
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+fgColor index 42
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS06"
+visMin "2"
+visMax "3"
+value {
+  "Gap brake retracted"
+}
+endObjectProperties
+
+# (Menu Button)
+object activeMenuButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 290
+y 126
+w 75
+h 22
+fgColor index 42
+bgColor index 4
+inconsistentColor index 14
+topShadowColor index 1
+botShadowColor index 11
+controlPv "BL172:MONO_MC2:GAP:BRAKE"
+font "helvetica-bold-r-12.0"
+visPv "$(NAME).VS06"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 270
+y 132
+w 12
+h 12
+lineColor index 22
+fill
+fillColor index 22
+visPv "$(NAME).VS06"
+visMin "3"
+visMax "5"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 132
+w 260
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS06"
+visMin "3"
+visMax "4"
+value {
+  "Gap brake extended"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 132
+w 260
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS06"
+visMin "4"
+visMax "5"
+value {
+  "Gap brake retracted"
+}
+endObjectProperties
+
+# (Menu Button)
+object activeMenuButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 290
+y 126
+w 75
+h 22
+fgColor index 22
+bgColor index 4
+inconsistentColor index 14
+topShadowColor index 1
+botShadowColor index 11
+controlPv "BL172:MONO_MC2:GAP:BRAKE"
+font "helvetica-bold-r-12.0"
+# visPv "$(NAME).VS06"
+# visMin "3"
+# visMax "5"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 270
+y 159
+w 12
+h 12
+lineColor index 18
+fill
+fillColor index 18
+visPv "$(NAME).VS07"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 159
+w 260
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+fgColor index 18
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS07"
+visMin "0"
+visMax "1"
+value {
+  "Gap \"A\" at minimal"
+}
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 270
+y 159
+w 12
+h 12
+lineColor index 42
+fill
+fillColor index 42
+visPv "$(NAME).VS07"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 159
+w 260
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+fgColor index 42
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS07"
+visMin "1"
+visMax "2"
+value {
+  "Gap \"A\" not at minimal"
+}
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 270
+y 159
+w 12
+h 12
+lineColor index 22
+fill
+fillColor index 22
+visPv "$(NAME).VS07"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 159
+w 260
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS07"
+visMin "2"
+visMax "3"
+value {
+  "Gap \"A\" not at minimal"
+}
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 270
+y 186
+w 12
+h 12
+lineColor index 18
+fill
+fillColor index 18
+visPv "$(NAME).VS08"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 186
+w 260
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+fgColor index 18
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS08"
+visMin "0"
+visMax "1"
+value {
+  "Gap \"B\" at minimal"
+}
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 270
+y 186
+w 12
+h 12
+lineColor index 42
+fill
+fillColor index 42
+visPv "$(NAME).VS08"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 186
+w 260
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+fgColor index 42
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS08"
+visMin "1"
+visMax "2"
+value {
+  "Gap \"B\" not at minimal"
+}
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 270
+y 186
+w 12
+h 12
+lineColor index 22
+fill
+fillColor index 22
+visPv "$(NAME).VS08"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 186
+w 260
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS08"
+visMin "2"
+visMax "3"
+value {
+  "Gap \"B\" not at minimal"
+}
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 270
+y 213
+w 12
+h 12
+lineColor index 18
+fill
+fillColor index 18
+visPv "$(NAME).VS09"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 213
+w 260
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+fgColor index 18
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS09"
+visMin "0"
+visMax "1"
+value {
+  "Platform horizontal"
+}
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 270
+y 213
+w 12
+h 12
+lineColor index 42
+fill
+fillColor index 42
+visPv "$(NAME).VS09"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 213
+w 260
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+fgColor index 42
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS09"
+visMin "1"
+visMax "2"
+value {
+  "Platform not horizontal"
+}
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 270
+y 213
+w 12
+h 12
+lineColor index 22
+fill
+fillColor index 22
+visPv "$(NAME).VS09"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 213
+w 260
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS09"
+visMin "2"
+visMax "3"
+value {
+  "Platform not horizontal"
+}
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 270
+y 240
+w 12
+h 12
+lineColor index 18
+fill
+fillColor index 18
+visPv "$(NAME).VS10"
+visMin "0"
+visMax "2"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 240
+w 260
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+fgColor index 18
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS10"
+visMin "0"
+visMax "1"
+value {
+  "Translation brake extended"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 240
+w 260
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+fgColor index 18
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS10"
+visMin "1"
+visMax "2"
+value {
+  "Translation brake retracted"
+}
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 270
+y 240
+w 12
+h 12
+lineColor index 42
+fill
+fillColor index 42
+visPv "$(NAME).VS10"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 240
+w 260
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+fgColor index 42
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS10"
+visMin "2"
+visMax "3"
+value {
+  "Translation brake retracted"
+}
+endObjectProperties
+
+# (Menu Button)
+object activeMenuButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 290
+y 234
+w 75
+h 22
+fgColor index 42
+bgColor index 4
+inconsistentColor index 14
+topShadowColor index 1
+botShadowColor index 11
+controlPv "BL172:MONO_MC2:TRANS:BRAKE"
+font "helvetica-bold-r-12.0"
+visPv "$(NAME).VS10"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 270
+y 240
+w 12
+h 12
+lineColor index 22
+fill
+fillColor index 22
+visPv "$(NAME).VS10"
+visMin "3"
+visMax "5"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 240
+w 260
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS10"
+visMin "3"
+visMax "4"
+value {
+  "Translation brake extended"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 240
+w 260
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS10"
+visMin "4"
+visMax "5"
+value {
+  "Translation brake retracted"
+}
+endObjectProperties
+
+# (Menu Button)
+object activeMenuButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 290
+y 234
+w 75
+h 22
+fgColor index 22
+bgColor index 4
+inconsistentColor index 14
+topShadowColor index 1
+botShadowColor index 11
+controlPv "BL172:MONO_MC2:TRANS:BRAKE"
+font "helvetica-bold-r-12.0"
+visPv "$(NAME).VS10"
+visMin "3"
+visMax "5"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 270
+y 267
+w 12
+h 12
+lineColor index 18
+fill
+fillColor index 18
+visPv "$(NAME).VS11"
+visMin "0"
+visMax "2"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 267
+w 260
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+fgColor index 18
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS11"
+visMin "0"
+visMax "1"
+value {
+  "Translation at \"A\""
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 267
+w 260
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+fgColor index 18
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS11"
+visMin "1"
+visMax "2"
+value {
+  "Translation at \"B\""
+}
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 270
+y 267
+w 12
+h 12
+lineColor index 42
+fill
+fillColor index 42
+visPv "$(NAME).VS11"
+visMin "2"
+visMax "5"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 267
+w 260
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+fgColor index 42
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS11"
+visMin "2"
+visMax "3"
+value {
+  "Translation not at \"A\""
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 267
+w 260
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+fgColor index 42
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS11"
+visMin "3"
+visMax "4"
+value {
+  "Translation not at \"B\""
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 267
+w 260
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+fgColor index 42
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS11"
+visMin "4"
+visMax "5"
+value {
+  "Translation must be at either \"A\" or \"B\""
+}
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 270
+y 267
+w 12
+h 12
+lineColor index 22
+fill
+fillColor index 22
+visPv "$(NAME).VS11"
+visMin "5"
+visMax "6"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 267
+w 260
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS11"
+visMin "5"
+visMax "6"
+value {
+  "Translation cannot be at both \"A\" and \"B\""
+}
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 270
+y 294
+w 12
+h 12
+lineColor index 18
+fill
+fillColor index 18
+visPv "$(NAME).VS12"
+visMin "0"
+visMax "2"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 294
+w 260
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+fgColor index 18
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS12"
+visMin "0"
+visMax "1"
+value {
+  "Goniometer at \"A\""
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 294
+w 260
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+fgColor index 18
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS12"
+visMin "1"
+visMax "2"
+value {
+  "Goniometer at \"B\""
+}
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 270
+y 294
+w 12
+h 12
+lineColor index 42
+fill
+fillColor index 42
+visPv "$(NAME).VS12"
+visMin "2"
+visMax "5"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 294
+w 260
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+fgColor index 42
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS12"
+visMin "2"
+visMax "3"
+value {
+  "Goniometer not at \"A\""
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 294
+w 260
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+fgColor index 42
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS12"
+visMin "3"
+visMax "4"
+value {
+  "Goniometer not at \"B\""
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 294
+w 260
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+fgColor index 42
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS12"
+visMin "4"
+visMax "5"
+value {
+  "Goniometer must be at either \"A\" or \"B\""
+}
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 270
+y 294
+w 12
+h 12
+lineColor index 22
+fill
+fillColor index 22
+visPv "$(NAME).VS12"
+visMin "5"
+visMax "6"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 294
+w 260
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+fgColor index 22
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS12"
+visMin "5"
+visMax "6"
+value {
+  "Goniometer cannot be at both \"A\" and \"B\""
+}
+endObjectProperties
+
+# (Circle) -- DHZ center of the circle
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 520
+y 200
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 7
+#visPv "$(NAME).A1"
+#visMin "0"
+#visMax "1"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 637
+y 106
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 4
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 637
+y 106
+w 12
+h 12
+lineColor index 30
+fill
+fillColor index 30
+visPv "$(NAME):MOTOR1:RBV_LED"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Circle) A min
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 637
+y 106
+w 12
+h 12
+lineColor index 42
+fill
+fillColor index 42
+visPv "$(NAME).A9"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Circle) A over travel
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 637
+y 106
+w 12
+h 12
+lineColor index 22
+fill
+fillColor index 22
+visPv "$(NAME).A11"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 624
+y 121
+w 40
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 5
+useDisplayBg
+value {
+  "min"
+}
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 626
+y 94
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 7
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 626
+y 94
+w 12
+h 12
+lineColor index 30
+fill
+fillColor index 30
+visPv "$(NAME):MOTOR1:RBV_LED"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 614
+y 83
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 7
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 614
+y 83
+w 12
+h 12
+lineColor index 30
+fill
+fillColor index 30
+visPv "$(NAME):MOTOR1:RBV_LED"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 602
+y 74
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 7
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 602
+y 74
+w 12
+h 12
+lineColor index 30
+fill
+fillColor index 30
+visPv "$(NAME):MOTOR1:RBV_LED"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 588
+y 66
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 7
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 588
+y 66
+w 12
+h 12
+lineColor index 30
+fill
+fillColor index 30
+visPv "$(NAME):MOTOR1:RBV_LED"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 574
+y 60
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 7
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 574
+y 60
+w 12
+h 12
+lineColor index 30
+fill
+fillColor index 30
+visPv "$(NAME):MOTOR1:RBV_LED"
+visMin "5"
+visMax "6"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 559
+y 55
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 7
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 559
+y 55
+w 12
+h 12
+lineColor index 30
+fill
+fillColor index 30
+visPv "$(NAME):MOTOR1:RBV_LED"
+visMin "6"
+visMax "7"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 543
+y 52
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 7
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 543
+y 52
+w 12
+h 12
+lineColor index 30
+fill
+fillColor index 30
+visPv "$(NAME):MOTOR1:RBV_LED"
+visMin "7"
+visMax "8"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 528
+y 50
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 4
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 528
+y 50
+w 12
+h 12
+lineColor index 30
+fill
+fillColor index 30
+visPv "$(NAME):MOTOR1:RBV_LED"
+visMin "8"
+visMax "9"
+endObjectProperties
+
+# (Circle) A max
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 528
+y 50
+w 12
+h 12
+lineColor index 42
+fill
+fillColor index 42
+visPv "$(NAME):MOTOR1.RLS0"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 515
+y 63
+w 40
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 5
+useDisplayBg
+value {
+  "max"
+}
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 513
+y 50
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 7
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 513
+y 50
+w 12
+h 12
+lineColor index 30
+fill
+fillColor index 30
+visPv "$(NAME):MOTOR1:RBV_LED"
+visMin "9"
+visMax "10"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 498
+y 52
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 7
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 498
+y 52
+w 12
+h 12
+lineColor index 30
+fill
+fillColor index 30
+visPv "$(NAME):MOTOR1:RBV_LED"
+visMin "10"
+visMax "11"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 482
+y 55
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 7
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 482
+y 55
+w 12
+h 12
+lineColor index 30
+fill
+fillColor index 30
+visPv "$(NAME):MOTOR1:RBV_LED"
+visMin "11"
+visMax "12"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 467
+y 60
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 7
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 467
+y 60
+w 12
+h 12
+lineColor index 30
+fill
+fillColor index 30
+visPv "$(NAME):MOTOR1:RBV_LED"
+visMin "12"
+visMax "13"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 453
+y 66
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 7
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 453
+y 66
+w 12
+h 12
+lineColor index 30
+fill
+fillColor index 30
+visPv "$(NAME):MOTOR1:RBV_LED"
+visMin "13"
+visMax "14"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 439
+y 74
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 7
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 439
+y 74
+w 12
+h 12
+lineColor index 30
+fill
+fillColor index 30
+visPv "$(NAME):MOTOR1:RBV_LED"
+visMin "14"
+visMax "15"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 427
+y 83
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 7
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 427
+y 83
+w 12
+h 12
+lineColor index 30
+fill
+fillColor index 30
+visPv "$(NAME):MOTOR1:RBV_LED"
+visMin "15"
+visMax "16"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 415
+y 94
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 7
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 415
+y 94
+w 12
+h 12
+lineColor index 30
+fill
+fillColor index 30
+visPv "$(NAME):MOTOR1:RBV_LED"
+visMin "16"
+visMax "17"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 404
+y 106
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 7
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 404
+y 106
+w 12
+h 12
+lineColor index 30
+fill
+fillColor index 30
+visPv "$(NAME):MOTOR1:RBV_LED"
+visMin "17"
+visMax "18"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 395
+y 118
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 4
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 395
+y 118
+w 12
+h 12
+lineColor index 30
+fill
+fillColor index 30
+visPv "$(NAME):MOTOR1:RBV_LED"
+visMin "18"
+visMax "19"
+endObjectProperties
+
+# (Circle) Platform horizontal
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 395
+y 118
+w 12
+h 12
+lineColor index 18
+fill
+fillColor index 18
+visPv "$(NAME).A6"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 321
+y 95
+w 70
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 5
+useDisplayBg
+value {
+  "Platform"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 321
+y 110
+w 70
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 5
+useDisplayBg
+value {
+  "Horizontal"
+}
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 387
+y 132
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 7
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 387
+y 132
+w 12
+h 12
+lineColor index 30
+fill
+fillColor index 30
+visPv "$(NAME):MOTOR1:RBV_LED"
+visMin "19"
+visMax "20"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 381
+y 146
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 7
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 381
+y 146
+w 12
+h 12
+lineColor index 30
+fill
+fillColor index 30
+visPv "$(NAME):MOTOR1:RBV_LED"
+visMin "20"
+visMax "21"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 376
+y 161
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 7
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 376
+y 161
+w 12
+h 12
+lineColor index 30
+fill
+fillColor index 30
+visPv "$(NAME):MOTOR1:RBV_LED"
+visMin "21"
+visMax "22"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 373
+y 177
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 7
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 373
+y 177
+w 12
+h 12
+lineColor index 30
+fill
+fillColor index 30
+visPv "$(NAME):MOTOR1:RBV_LED"
+visMin "22"
+visMax "23"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 371
+y 192
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 7
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 371
+y 192
+w 12
+h 12
+lineColor index 30
+fill
+fillColor index 30
+visPv "$(NAME):MOTOR1:RBV_LED"
+visMin "23"
+visMax "24"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 371
+y 207
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 7
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 371
+y 207
+w 12
+h 12
+lineColor index 30
+fill
+fillColor index 30
+visPv "$(NAME):MOTOR1:RBV_LED"
+visMin "24"
+visMax "25"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 373
+y 222
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 7
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 373
+y 222
+w 12
+h 12
+lineColor index 30
+fill
+fillColor index 30
+visPv "$(NAME):MOTOR1:RBV_LED"
+visMin "25"
+visMax "26"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 376
+y 238
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 7
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 376
+y 238
+w 12
+h 12
+lineColor index 30
+fill
+fillColor index 30
+visPv "$(NAME):MOTOR1:RBV_LED"
+visMin "26"
+visMax "27"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 381
+y 253
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 7
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 381
+y 253
+w 12
+h 12
+lineColor index 30
+fill
+fillColor index 30
+visPv "$(NAME):MOTOR1:RBV_LED"
+visMin "27"
+visMax "28"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 387
+y 267
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 7
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 387
+y 267
+w 12
+h 12
+lineColor index 30
+fill
+fillColor index 30
+visPv "$(NAME):MOTOR1:RBV_LED"
+visMin "28"
+visMax "29"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 395
+y 281
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 7
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 395
+y 281
+w 12
+h 12
+lineColor index 30
+fill
+fillColor index 30
+visPv "$(NAME):MOTOR1:RBV_LED"
+visMin "29"
+visMax "30"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 404
+y 293
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 7
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 404
+y 293
+w 12
+h 12
+lineColor index 30
+fill
+fillColor index 30
+visPv "$(NAME):MOTOR1:RBV_LED"
+visMin "30"
+visMax "31"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 415
+y 305
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 4
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 415
+y 305
+w 12
+h 12
+lineColor index 30
+fill
+fillColor index 30
+visPv "$(NAME):MOTOR1:RBV_LED"
+visMin "31"
+visMax "32"
+endObjectProperties
+
+# (Circle) B min
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 415
+y 305
+w 12
+h 12
+lineColor index 42
+fill
+fillColor index 42
+visPv "$(NAME):MOTOR1.RHS0"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 419
+y 295
+w 40
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 5
+useDisplayBg
+value {
+  "min"
+}
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 427
+y 316
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 7
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 427
+y 316
+w 12
+h 12
+lineColor index 30
+fill
+fillColor index 30
+visPv "$(NAME):MOTOR1:RBV_LED"
+visMin "32"
+visMax "33"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 439
+y 325
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 7
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 439
+y 325
+w 12
+h 12
+lineColor index 30
+fill
+fillColor index 30
+visPv "$(NAME):MOTOR1:RBV_LED"
+visMin "33"
+visMax "34"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 453
+y 333
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 7
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 453
+y 333
+w 12
+h 12
+lineColor index 30
+fill
+fillColor index 30
+visPv "$(NAME):MOTOR1:RBV_LED"
+visMin "34"
+visMax "35"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 467
+y 339
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 7
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 467
+y 339
+w 12
+h 12
+lineColor index 30
+fill
+fillColor index 30
+visPv "$(NAME):MOTOR1:RBV_LED"
+visMin "35"
+visMax "36"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 482
+y 344
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 7
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 482
+y 344
+w 12
+h 12
+lineColor index 30
+fill
+fillColor index 30
+visPv "$(NAME):MOTOR1:RBV_LED"
+visMin "36"
+visMax "37"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 498
+y 347
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 7
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 498
+y 347
+w 12
+h 12
+lineColor index 30
+fill
+fillColor index 30
+visPv "$(NAME):MOTOR1:RBV_LED"
+visMin "37"
+visMax "38"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 513
+y 349
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 4
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 513
+y 349
+w 12
+h 12
+lineColor index 30
+fill
+fillColor index 30
+visPv "$(NAME):MOTOR1:RBV_LED"
+visMin "38"
+visMax "39"
+endObjectProperties
+
+# (Circle) B max
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 513
+y 349
+w 12
+h 12
+lineColor index 42
+fill
+fillColor index 42
+visPv "$(NAME).A1"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Circle) B over travel
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 513
+y 349
+w 12
+h 12
+lineColor index 22
+fill
+fillColor index 22
+visPv "$(NAME).A3"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 500
+y 333
+w 40
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 5
+useDisplayBg
+value {
+  "max"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 476
+y 86
+w 100
+h 20
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 7
+bgColor index 5
+useDisplayBg
+value {
+  "Crystal A"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 476
+y 86
+w 100
+h 20
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 18
+bgColor index 5
+useDisplayBg
+value {
+  "Crystal A"
+}
+visPv "CALC\\\{((A=1)&&(B=1))?1:0\}($(NAME).MODE,$(NAME).REDY)"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 412
+y 126
+w 100
+h 18
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 5
+useDisplayBg
+value {
+  "Desired"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 476
+y 126
+w 100
+h 18
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 5
+useDisplayBg
+value {
+  "Translate"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 540
+y 126
+w 100
+h 18
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 5
+useDisplayBg
+value {
+  "Region"
+}
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 456
+y 149
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 7
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 456
+y 149
+w 12
+h 12
+lineColor index 18
+fill
+fillColor index 18
+visPv "$(NAME).MODE"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 520
+y 149
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 7
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 520
+y 149
+w 12
+h 12
+lineColor index 18
+fill
+fillColor index 18
+visPv "$(NAME):MOTOR2.LLS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 584
+y 149
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 7
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 584
+y 149
+w 12
+h 12
+lineColor index 18
+fill
+fillColor index 18
+visPv "$(NAME).A10"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 476
+y 308
+w 100
+h 20
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 7
+bgColor index 5
+useDisplayBg
+value {
+  "Crystal B"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 476
+y 308
+w 100
+h 20
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 18
+bgColor index 5
+useDisplayBg
+value {
+  "Crystal B"
+}
+visPv "CALC\\\{((A=2)&&(B=1))?1:0\}($(NAME).MODE,$(NAME).REDY)"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 456
+y 250
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 7
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 456
+y 250
+w 12
+h 12
+lineColor index 18
+fill
+fillColor index 18
+visPv "$(NAME).MODE"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 520
+y 250
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 7
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 520
+y 250
+w 12
+h 12
+lineColor index 18
+fill
+fillColor index 18
+visPv "$(NAME):MOTOR2.HLS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 584
+y 250
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 7
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 584
+y 250
+w 12
+h 12
+lineColor index 18
+fill
+fillColor index 18
+visPv "$(NAME).A2"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 635
+y 187
+w 100
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "left"
+fgColor index 14
+bgColor index 5
+useDisplayBg
+value {
+  "Gap A"
+}
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 424
+y 187
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 4
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 424
+y 187
+w 12
+h 12
+lineColor index 18
+fill
+fillColor index 18
+visPv "$(NAME):MOTOR5.LLS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 441
+y 183
+w 170
+h 20
+indicatorColor index 30
+fgColor index 14
+bgColor index 4
+indicatorPv "$(NAME):MOTOR5.RBV"
+font "helvetica-bold-r-12.0"
+border
+min "0"
+max "100"
+scaleFormat "FFloat"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 616
+y 187
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 4
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 616
+y 187
+w 12
+h 12
+lineColor index 42
+fill
+fillColor index 42
+visPv "$(NAME):MOTOR5.HLS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 635
+y 212
+w 100
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "left"
+fgColor index 14
+bgColor index 5
+useDisplayBg
+value {
+  "Gap B"
+}
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 424
+y 212
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 4
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 424
+y 212
+w 12
+h 12
+lineColor index 18
+fill
+fillColor index 18
+visPv "$(NAME):MOTOR6.LLS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 441
+y 208
+w 170
+h 20
+indicatorColor index 30
+fgColor index 14
+bgColor index 4
+indicatorPv "$(NAME):MOTOR6.RBV"
+font "helvetica-bold-r-12.0"
+border
+min "0"
+max "100"
+scaleFormat "FFloat"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 616
+y 212
+w 12
+h 12
+lineColor index 7
+fill
+fillColor index 4
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 616
+y 212
+w 12
+h 12
+lineColor index 42
+fill
+fillColor index 42
+visPv "$(NAME):MOTOR6.HLS"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 411
+y 228
+w 40
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 5
+useDisplayBg
+value {
+  "min"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 603
+y 228
+w 40
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 5
+useDisplayBg
+value {
+  "max"
+}
+endObjectProperties
+
+# (Menu Button)
+object activeMenuButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 486
+y 275
+w 80
+h 24
+fgColor index 25
+bgColor index 4
+inconsistentColor index 14
+topShadowColor index 1
+botShadowColor index 11
+controlPv "$(NAME).MODE"
+font "helvetica-bold-r-12.0"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 486
+y 372
+w 80
+h 20
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 5
+useDisplayBg
+value {
+  "Goniometer"
+}
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 486
+y 395
+w 80
+h 22
+controlPv "$(NAME):MOTOR1.VAL"
+format "decimal"
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+fgColor index 25
+bgColor index 4
+editable
+motifWidget
+precision 6
+nullColor index 18
+smartRefresh
+newPos
+objType "controls"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 486
+y 451
+w 80
+h 20
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 5
+useDisplayBg
+value {
+  "Brag Angle"
+}
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 486
+y 425
+w 80
+h 22
+controlPv "$(NAME).BANG"
+format "decimal"
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+fgColor index 25
+bgColor index 4
+editable
+motifWidget
+precision 6
+nullColor index 18
+smartRefresh
+newPos
+objType "controls"
+endObjectProperties
+
+# LVDT values
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 40
+y 398
+w 20
+h 20
+font "helvetica-bold-r-12.0"
+fontAlign "left"
+fgColor index 14
+bgColor index 5
+useDisplayBg
+value {
+  "A"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 40
+y 428
+w 20
+h 20
+font "helvetica-bold-r-12.0"
+fontAlign "left"
+fgColor index 14
+bgColor index 5
+useDisplayBg
+value {
+  "B"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 60
+y 372
+w 70
+h 20
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 5
+useDisplayBg
+value {
+  "Gap"
+}
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 60
+y 395
+w 70
+h 22
+controlPv "$(NAME):MOTOR5.REP"
+format "decimal"
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+fgColor index 18
+bgColor index 4
+motifWidget
+precision 0
+nullColor index 18
+smartRefresh
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 60
+y 425
+w 70
+h 22
+controlPv "$(NAME):MOTOR6.REP"
+format "decimal"
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+fgColor index 18
+bgColor index 4
+motifWidget
+precision 0
+nullColor index 18
+smartRefresh
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 145
+y 372
+w 70
+h 20
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 5
+useDisplayBg
+value {
+  "Roll"
+}
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 145
+y 395
+w 70
+h 22
+controlPv "BL172:MONO_MC1:MOTOR6.REP"
+format "decimal"
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+fgColor index 18
+bgColor index 4
+motifWidget
+precision 0
+nullColor index 18
+smartRefresh
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 145
+y 425
+w 70
+h 22
+controlPv "BL172:MONO_MC1:MOTOR8.REP"
+format "decimal"
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+fgColor index 18
+bgColor index 4
+motifWidget
+precision 0
+nullColor index 18
+smartRefresh
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 230
+y 372
+w 70
+h 20
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 5
+useDisplayBg
+value {
+  "Pitch"
+}
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 230
+y 395
+w 70
+h 22
+controlPv "BL172:MONO_MC1:MOTOR5.REP"
+format "decimal"
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+fgColor index 18
+bgColor index 4
+motifWidget
+precision 0
+nullColor index 18
+smartRefresh
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 230
+y 425
+w 70
+h 22
+controlPv "BL172:MONO_MC1:MOTOR7.REP"
+format "decimal"
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+fgColor index 18
+bgColor index 4
+motifWidget
+precision 0
+nullColor index 18
+smartRefresh
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 315
+y 372
+w 70
+h 20
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 5
+useDisplayBg
+value {
+  "CapSensor"
+}
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 315
+y 425
+w 70
+h 22
+controlPv "BL172:MONO_MC1:MOTOR7.ADCV"
+format "decimal"
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+fgColor index 18
+bgColor index 4
+motifWidget
+precision 0
+nullColor index 18
+smartRefresh
+newPos
+objType "monitors"
+endObjectProperties
+
+
+endGroup
+
+visPv "LOC\\\\WhichOne"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 4
+y 26
+w 720
+h 443
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 4
+y 26
+w 720
+h 443
+lineColor index 3
+fill
+fillColor index 3
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 20
+y 55
+w 100
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 14
+bgColor index 5
+useDisplayBg
+value {
+  "Log Messages"
+}
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 115
+y 53
+w 584
+h 20
+controlPv "$(NAME).LOGA"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fgColor index 15
+bgColor index 8
+motifWidget
+limitsFromDb
+nullColor index 18
+smartRefresh
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 115
+y 73
+w 584
+h 20
+controlPv "$(NAME).LOGB"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fgColor index 15
+bgColor index 8
+motifWidget
+limitsFromDb
+nullColor index 18
+smartRefresh
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 115
+y 93
+w 584
+h 20
+controlPv "$(NAME).LOGC"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fgColor index 15
+bgColor index 8
+motifWidget
+limitsFromDb
+nullColor index 18
+smartRefresh
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 115
+y 113
+w 584
+h 20
+controlPv "$(NAME).LOGD"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fgColor index 15
+bgColor index 8
+motifWidget
+limitsFromDb
+nullColor index 18
+smartRefresh
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 115
+y 133
+w 584
+h 20
+controlPv "$(NAME).LOGE"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fgColor index 15
+bgColor index 8
+motifWidget
+limitsFromDb
+nullColor index 18
+smartRefresh
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 115
+y 153
+w 584
+h 20
+controlPv "$(NAME).LOGF"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fgColor index 15
+bgColor index 8
+motifWidget
+limitsFromDb
+nullColor index 18
+smartRefresh
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 115
+y 173
+w 584
+h 20
+controlPv "$(NAME).LOGG"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fgColor index 15
+bgColor index 8
+motifWidget
+limitsFromDb
+nullColor index 18
+smartRefresh
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 115
+y 193
+w 584
+h 20
+controlPv "$(NAME).LOGH"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fgColor index 15
+bgColor index 8
+motifWidget
+limitsFromDb
+nullColor index 18
+smartRefresh
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 20
+y 230
+w 100
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 14
+bgColor index 5
+useDisplayBg
+value {
+  "Statuses"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 118
+y 230
+w 180
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 18
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS02"
+visMin "0"
+visMax "1"
+value {
+  "MPS good"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 118
+y 230
+w 180
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 42
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS02"
+visMin "1"
+visMax "2"
+value {
+  "MPS fault"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 292
+y 230
+w 180
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 18
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS05"
+visMin "0"
+visMax "1"
+value {
+  "Diagnostic paddle out"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 292
+y 230
+w 180
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 42
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS05"
+visMin "1"
+visMax "2"
+value {
+  "Diagnostic paddle not out"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 292
+y 230
+w 180
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 22
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS05"
+visMin "2"
+visMax "3"
+value {
+  "Diagnostic paddle not out"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 118
+y 254
+w 180
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 18
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS06"
+visMin "0"
+visMax "1"
+value {
+  "Gap brake extended"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 118
+y 254
+w 180
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 18
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS06"
+visMin "1"
+visMax "2"
+value {
+  "Gap brake retracted"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 118
+y 254
+w 180
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 42
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS06"
+visMin "2"
+visMax "3"
+value {
+  "Gap brake retracted"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 490
+y 254
+w 270
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 42
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS06"
+visMin "2"
+visMax "3"
+value {
+  "<="
+}
+endObjectProperties
+
+# (Menu Button)
+object activeMenuButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 510
+y 248
+w 75
+h 22
+fgColor index 42
+bgColor index 4
+inconsistentColor index 14
+topShadowColor index 1
+botShadowColor index 11
+controlPv "BL172:MONO_MC2:GAP:BRAKE"
+font "helvetica-bold-r-12.0"
+visPv "$(NAME).VS06"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 118
+y 254
+w 180
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 22
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS06"
+visMin "3"
+visMax "4"
+value {
+  "Gap brake extended"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 118
+y 254
+w 180
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 22
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS06"
+visMin "4"
+visMax "5"
+value {
+  "Gap brake retracted"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 490
+y 254
+w 270
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 22
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS06"
+visMin "3"
+visMax "5"
+value {
+  "<="
+}
+endObjectProperties
+
+# (Menu Button)
+object activeMenuButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 510
+y 248
+w 75
+h 22
+fgColor index 22
+bgColor index 4
+inconsistentColor index 14
+topShadowColor index 1
+botShadowColor index 11
+controlPv "BL172:MONO_MC2:GAP:BRAKE"
+font "helvetica-bold-r-12.0"
+# visPv "$(NAME).VS06"
+# visMin "3"
+# visMax "5"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 118
+y 278
+w 180
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 18
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS07"
+visMin "0"
+visMax "1"
+value {
+  "Gap \"A\" at minimal"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 118
+y 278
+w 180
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 42
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS07"
+visMin "1"
+visMax "2"
+value {
+  "Gap \"A\" not at minimal"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 118
+y 278
+w 180
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 22
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS07"
+visMin "2"
+visMax "3"
+value {
+  "Gap \"A\" not at minimal"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 292
+y 278
+w 180
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 18
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS08"
+visMin "0"
+visMax "1"
+value {
+  "Gap \"B\" at minimal"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 292
+y 278
+w 180
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 42
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS08"
+visMin "1"
+visMax "2"
+value {
+  "Gap \"B\" not at minimal"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 292
+y 278
+w 180
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 42
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS08"
+visMin "2"
+visMax "3"
+value {
+  "Gap \"B\" not at minimal"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 118
+y 302
+w 180
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 18
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS09"
+visMin "0"
+visMax "1"
+value {
+  "Platform horizontal"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 118
+y 302
+w 180
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 42
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS09"
+visMin "1"
+visMax "2"
+value {
+  "Platform not horizontal"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 118
+y 302
+w 180
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 22
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS09"
+visMin "2"
+visMax "3"
+value {
+  "Platform not horizontal"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 118
+y 326
+w 180
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 18
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS10"
+visMin "0"
+visMax "1"
+value {
+  "Translation brake extended"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 118
+y 326
+w 180
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 18
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS10"
+visMin "1"
+visMax "2"
+value {
+  "Translation brake retracted"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 118
+y 326
+w 180
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 42
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS10"
+visMin "2"
+visMax "3"
+value {
+  "Translation brake retracted"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 490
+y 326
+w 270
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 42
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS10"
+visMin "2"
+visMax "3"
+value {
+  "<="
+}
+endObjectProperties
+
+# (Menu Button)
+object activeMenuButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 510
+y 320
+w 75
+h 22
+fgColor index 42
+bgColor index 4
+inconsistentColor index 14
+topShadowColor index 1
+botShadowColor index 11
+controlPv "BL172:MONO_MC2:TRANS:BRAKE"
+font "helvetica-bold-r-12.0"
+visPv "$(NAME).VS10"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 118
+y 326
+w 180
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 22
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS10"
+visMin "3"
+visMax "4"
+value {
+  "Translation brake extended"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 118
+y 326
+w 180
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 22
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS10"
+visMin "4"
+visMax "5"
+value {
+  "Translation brake retracted"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 490
+y 326
+w 270
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 22
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS10"
+visMin "3"
+visMax "5"
+value {
+  "<="
+}
+endObjectProperties
+
+# (Menu Button)
+object activeMenuButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 510
+y 320
+w 75
+h 22
+fgColor index 22
+bgColor index 4
+inconsistentColor index 14
+topShadowColor index 1
+botShadowColor index 11
+controlPv "BL172:MONO_MC2:TRANS:BRAKE"
+font "helvetica-bold-r-12.0"
+visPv "$(NAME).VS10"
+visMin "3"
+visMax "5"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 118
+y 350
+w 180
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 18
+bgColor index 5
+useDisplayBg
+visPv "$(NAME):MOTOR2.LLS"
+visMin "1"
+visMax "2"
+value {
+  "Translation at \"A\""
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 118
+y 350
+w 180
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 8
+bgColor index 5
+useDisplayBg
+visPv "$(NAME):MOTOR2.LLS"
+visMin "0"
+visMax "1"
+value {
+  "Translation not at \"A\""
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 292
+y 350
+w 180
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 18
+bgColor index 5
+useDisplayBg
+visPv "$(NAME):MOTOR2.HLS"
+visMin "1"
+visMax "2"
+value {
+  "Translation at \"B\""
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 292
+y 350
+w 180
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 8
+bgColor index 5
+useDisplayBg
+visPv "$(NAME):MOTOR2.HLS"
+visMin "0"
+visMax "1"
+value {
+  "Translation not at \"B\""
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 490
+y 350
+w 270
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 42
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS11"
+visMin "2"
+visMax "5"
+value {
+  "<="
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 510
+y 350
+w 270
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 42
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS11"
+visMin "2"
+visMax "5"
+value {
+  "Translate to the desired end"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 490
+y 350
+w 270
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 22
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS11"
+visMin "5"
+visMax "6"
+value {
+  "<="
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 510
+y 350
+w 270
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 22
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS11"
+visMin "5"
+visMax "6"
+value {
+  "Cannot be at both ends"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 118
+y 374
+w 180
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 18
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).A10"
+visMin "0"
+visMax "1"
+value {
+  "Goniometer at \"A\""
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 118
+y 374
+w 180
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 8
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).A10"
+visMin "1"
+visMax "2"
+value {
+  "Goniometer not at \"A\""
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 292
+y 374
+w 180
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 18
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).A2"
+visMin "0"
+visMax "1"
+value {
+  "Goniometer at \"B\""
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 292
+y 374
+w 180
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 8
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).A2"
+visMin "1"
+visMax "2"
+value {
+  "Goniometer not at \"B\""
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 490
+y 374
+w 270
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 42
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS12"
+visMin "2"
+visMax "5"
+value {
+  "<="
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 510
+y 374
+w 270
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 42
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS12"
+visMin "2"
+visMax "5"
+value {
+  "Rotate to the desired zone"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 490
+y 374
+w 270
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 22
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS12"
+visMin "5"
+visMax "6"
+value {
+  "<="
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 510
+y 374
+w 270
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 22
+bgColor index 5
+useDisplayBg
+visPv "$(NAME).VS12"
+visMin "5"
+visMax "6"
+value {
+  "Cannot be at both zones"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 510
+y 420
+w 175
+h 24
+fgColor index 25
+bgColor index 4
+topShadowColor index 1
+botShadowColor index 11
+font "helvetica-bold-r-12.0"
+buttonLabel "Limit Configuration"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "m8_limits.edl"
+}
+endObjectProperties
+
+
+endGroup
+
+
+visPv "$(NAME):MOTOR7.DISP"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

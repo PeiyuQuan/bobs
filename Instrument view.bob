@@ -1,0 +1,5240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>Display</name>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM activeRectangleClass</name>
+    <x>10</x>
+    <y>20</y>
+    <width>721</width>
+    <height>444</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="GLOBAL canvas" red="200" green="200" blue="200">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="GLOBAL canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>EDM Group 0</name>
+    <x>10</x>
+    <y>20</y>
+    <width>730</width>
+    <height>453</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <rules>
+      <rule name="EDM visibility" prop_id="visible" out_exp="false">
+        <exp bool_exp="pv0&gt;=0.0 &amp;&amp; pv0&lt;1.0">
+          <value>true</value>
+        </exp>
+        <exp bool_exp="true">
+          <value>false</value>
+        </exp>
+        <pv_name>loc://\\WhichOne</pv_name>
+      </rule>
+    </rules>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <x>271</x>
+      <y>57</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=0.0 &amp;&amp; pv0&lt;1.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS02</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass</name>
+      <text>MPS good</text>
+      <x>1</x>
+      <y>57</y>
+      <width>260</width>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=0.0 &amp;&amp; pv0&lt;1.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS02</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_1</name>
+      <x>271</x>
+      <y>57</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="orange-42" red="192" green="132" blue="72">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="orange-42" red="192" green="132" blue="72">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=1.0 &amp;&amp; pv0&lt;2.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS02</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_1</name>
+      <text>MPS Fault</text>
+      <x>1</x>
+      <y>57</y>
+      <width>260</width>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="orange-42" red="192" green="132" blue="72">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=1.0 &amp;&amp; pv0&lt;2.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS02</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_2</name>
+      <x>271</x>
+      <y>57</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Mon: MAJOR/unack" red="192" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Mon: MAJOR/unack" red="192" green="0" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=2.0 &amp;&amp; pv0&lt;3.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS02</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_2</name>
+      <text>MPS Fault</text>
+      <x>1</x>
+      <y>57</y>
+      <width>260</width>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Mon: MAJOR/unack" red="192" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=2.0 &amp;&amp; pv0&lt;3.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS02</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_3</name>
+      <x>271</x>
+      <y>84</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=0.0 &amp;&amp; pv0&lt;1.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS05</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_3</name>
+      <text>Diagnostic paddle out</text>
+      <x>1</x>
+      <y>84</y>
+      <width>260</width>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=0.0 &amp;&amp; pv0&lt;1.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS05</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_4</name>
+      <x>271</x>
+      <y>84</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="orange-42" red="192" green="132" blue="72">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="orange-42" red="192" green="132" blue="72">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=1.0 &amp;&amp; pv0&lt;2.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS05</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_4</name>
+      <text>Diagnostic paddle not out</text>
+      <x>1</x>
+      <y>84</y>
+      <width>260</width>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="orange-42" red="192" green="132" blue="72">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=1.0 &amp;&amp; pv0&lt;2.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS05</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_5</name>
+      <x>271</x>
+      <y>84</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Mon: MAJOR/unack" red="192" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Mon: MAJOR/unack" red="192" green="0" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=2.0 &amp;&amp; pv0&lt;3.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS05</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_5</name>
+      <text>Diagnostic paddle not out</text>
+      <x>1</x>
+      <y>84</y>
+      <width>260</width>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Mon: MAJOR/unack" red="192" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=2.0 &amp;&amp; pv0&lt;3.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS05</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_6</name>
+      <x>271</x>
+      <y>111</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=0.0 &amp;&amp; pv0&lt;2.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS06</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_6</name>
+      <text>Gap brake extended</text>
+      <x>1</x>
+      <y>111</y>
+      <width>260</width>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=0.0 &amp;&amp; pv0&lt;1.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS06</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_7</name>
+      <text>Gap brake retracted</text>
+      <x>1</x>
+      <y>111</y>
+      <width>260</width>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=1.0 &amp;&amp; pv0&lt;2.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS06</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_7</name>
+      <x>271</x>
+      <y>111</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="orange-42" red="192" green="132" blue="72">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="orange-42" red="192" green="132" blue="72">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=2.0 &amp;&amp; pv0&lt;3.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS06</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_8</name>
+      <text>Gap brake retracted</text>
+      <x>1</x>
+      <y>111</y>
+      <width>260</width>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="orange-42" red="192" green="132" blue="72">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=2.0 &amp;&amp; pv0&lt;3.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS06</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="combo" version="2.0.0">
+      <name>EDM activeMenuButtonClass</name>
+      <pv_name>BL172:MONO_MC2:GAP:BRAKE</pv_name>
+      <x>291</x>
+      <y>105</y>
+      <width>75</width>
+      <height>22</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="orange-42" red="192" green="132" blue="72">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-4" red="187" green="187" blue="187">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=2.0 &amp;&amp; pv0&lt;3.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS06</pv_name>
+        </rule>
+      </rules>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_8</name>
+      <x>271</x>
+      <y>111</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Mon: MAJOR/unack" red="192" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Mon: MAJOR/unack" red="192" green="0" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=3.0 &amp;&amp; pv0&lt;5.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS06</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_9</name>
+      <text>Gap brake extended</text>
+      <x>1</x>
+      <y>111</y>
+      <width>260</width>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Mon: MAJOR/unack" red="192" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=3.0 &amp;&amp; pv0&lt;4.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS06</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_10</name>
+      <text>Gap brake retracted</text>
+      <x>1</x>
+      <y>111</y>
+      <width>260</width>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Mon: MAJOR/unack" red="192" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=4.0 &amp;&amp; pv0&lt;5.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS06</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="combo" version="2.0.0">
+      <name>EDM activeMenuButtonClass_1</name>
+      <pv_name>BL172:MONO_MC2:GAP:BRAKE</pv_name>
+      <x>291</x>
+      <y>105</y>
+      <width>75</width>
+      <height>22</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Mon: MAJOR/unack" red="192" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-4" red="187" green="187" blue="187">
+        </color>
+      </background_color>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_9</name>
+      <x>271</x>
+      <y>138</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=0.0 &amp;&amp; pv0&lt;1.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS07</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_11</name>
+      <text>Gap "A" at minimal</text>
+      <x>1</x>
+      <y>138</y>
+      <width>260</width>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=0.0 &amp;&amp; pv0&lt;1.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS07</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_10</name>
+      <x>271</x>
+      <y>138</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="orange-42" red="192" green="132" blue="72">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="orange-42" red="192" green="132" blue="72">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=1.0 &amp;&amp; pv0&lt;2.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS07</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_12</name>
+      <text>Gap "A" not at minimal</text>
+      <x>1</x>
+      <y>138</y>
+      <width>260</width>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="orange-42" red="192" green="132" blue="72">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=1.0 &amp;&amp; pv0&lt;2.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS07</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_11</name>
+      <x>271</x>
+      <y>138</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Mon: MAJOR/unack" red="192" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Mon: MAJOR/unack" red="192" green="0" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=2.0 &amp;&amp; pv0&lt;3.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS07</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_13</name>
+      <text>Gap "A" not at minimal</text>
+      <x>1</x>
+      <y>138</y>
+      <width>260</width>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Mon: MAJOR/unack" red="192" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=2.0 &amp;&amp; pv0&lt;3.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS07</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_12</name>
+      <x>271</x>
+      <y>165</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=0.0 &amp;&amp; pv0&lt;1.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS08</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_14</name>
+      <text>Gap "B" at minimal</text>
+      <x>1</x>
+      <y>165</y>
+      <width>260</width>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=0.0 &amp;&amp; pv0&lt;1.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS08</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_13</name>
+      <x>271</x>
+      <y>165</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="orange-42" red="192" green="132" blue="72">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="orange-42" red="192" green="132" blue="72">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=1.0 &amp;&amp; pv0&lt;2.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS08</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_15</name>
+      <text>Gap "B" not at minimal</text>
+      <x>1</x>
+      <y>165</y>
+      <width>260</width>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="orange-42" red="192" green="132" blue="72">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=1.0 &amp;&amp; pv0&lt;2.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS08</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_14</name>
+      <x>271</x>
+      <y>165</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Mon: MAJOR/unack" red="192" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Mon: MAJOR/unack" red="192" green="0" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=2.0 &amp;&amp; pv0&lt;3.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS08</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_16</name>
+      <text>Gap "B" not at minimal</text>
+      <x>1</x>
+      <y>165</y>
+      <width>260</width>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Mon: MAJOR/unack" red="192" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=2.0 &amp;&amp; pv0&lt;3.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS08</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_15</name>
+      <x>271</x>
+      <y>192</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=0.0 &amp;&amp; pv0&lt;1.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS09</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_17</name>
+      <text>Platform horizontal</text>
+      <x>1</x>
+      <y>192</y>
+      <width>260</width>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=0.0 &amp;&amp; pv0&lt;1.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS09</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_16</name>
+      <x>271</x>
+      <y>192</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="orange-42" red="192" green="132" blue="72">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="orange-42" red="192" green="132" blue="72">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=1.0 &amp;&amp; pv0&lt;2.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS09</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_18</name>
+      <text>Platform not horizontal</text>
+      <x>1</x>
+      <y>192</y>
+      <width>260</width>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="orange-42" red="192" green="132" blue="72">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=1.0 &amp;&amp; pv0&lt;2.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS09</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_17</name>
+      <x>271</x>
+      <y>192</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Mon: MAJOR/unack" red="192" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Mon: MAJOR/unack" red="192" green="0" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=2.0 &amp;&amp; pv0&lt;3.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS09</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_19</name>
+      <text>Platform not horizontal</text>
+      <x>1</x>
+      <y>192</y>
+      <width>260</width>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Mon: MAJOR/unack" red="192" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=2.0 &amp;&amp; pv0&lt;3.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS09</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_18</name>
+      <x>271</x>
+      <y>219</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=0.0 &amp;&amp; pv0&lt;2.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS10</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_20</name>
+      <text>Translation brake extended</text>
+      <x>1</x>
+      <y>219</y>
+      <width>260</width>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=0.0 &amp;&amp; pv0&lt;1.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS10</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_21</name>
+      <text>Translation brake retracted</text>
+      <x>1</x>
+      <y>219</y>
+      <width>260</width>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=1.0 &amp;&amp; pv0&lt;2.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS10</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_19</name>
+      <x>271</x>
+      <y>219</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="orange-42" red="192" green="132" blue="72">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="orange-42" red="192" green="132" blue="72">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=2.0 &amp;&amp; pv0&lt;3.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS10</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_22</name>
+      <text>Translation brake retracted</text>
+      <x>1</x>
+      <y>219</y>
+      <width>260</width>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="orange-42" red="192" green="132" blue="72">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=2.0 &amp;&amp; pv0&lt;3.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS10</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="combo" version="2.0.0">
+      <name>EDM activeMenuButtonClass_2</name>
+      <pv_name>BL172:MONO_MC2:TRANS:BRAKE</pv_name>
+      <x>291</x>
+      <y>213</y>
+      <width>75</width>
+      <height>22</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="orange-42" red="192" green="132" blue="72">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-4" red="187" green="187" blue="187">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=2.0 &amp;&amp; pv0&lt;3.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS10</pv_name>
+        </rule>
+      </rules>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_20</name>
+      <x>271</x>
+      <y>219</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Mon: MAJOR/unack" red="192" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Mon: MAJOR/unack" red="192" green="0" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=3.0 &amp;&amp; pv0&lt;5.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS10</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_23</name>
+      <text>Translation brake extended</text>
+      <x>1</x>
+      <y>219</y>
+      <width>260</width>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Mon: MAJOR/unack" red="192" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=3.0 &amp;&amp; pv0&lt;4.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS10</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_24</name>
+      <text>Translation brake retracted</text>
+      <x>1</x>
+      <y>219</y>
+      <width>260</width>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Mon: MAJOR/unack" red="192" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=4.0 &amp;&amp; pv0&lt;5.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS10</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="combo" version="2.0.0">
+      <name>EDM activeMenuButtonClass_3</name>
+      <pv_name>BL172:MONO_MC2:TRANS:BRAKE</pv_name>
+      <x>291</x>
+      <y>213</y>
+      <width>75</width>
+      <height>22</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Mon: MAJOR/unack" red="192" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-4" red="187" green="187" blue="187">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=3.0 &amp;&amp; pv0&lt;5.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS10</pv_name>
+        </rule>
+      </rules>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_21</name>
+      <x>271</x>
+      <y>246</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=0.0 &amp;&amp; pv0&lt;2.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS11</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_25</name>
+      <text>Translation at "A"</text>
+      <x>1</x>
+      <y>246</y>
+      <width>260</width>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=0.0 &amp;&amp; pv0&lt;1.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS11</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_26</name>
+      <text>Translation at "B"</text>
+      <x>1</x>
+      <y>246</y>
+      <width>260</width>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=1.0 &amp;&amp; pv0&lt;2.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS11</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_22</name>
+      <x>271</x>
+      <y>246</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="orange-42" red="192" green="132" blue="72">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="orange-42" red="192" green="132" blue="72">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=2.0 &amp;&amp; pv0&lt;5.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS11</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_27</name>
+      <text>Translation not at "A"</text>
+      <x>1</x>
+      <y>246</y>
+      <width>260</width>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="orange-42" red="192" green="132" blue="72">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=2.0 &amp;&amp; pv0&lt;3.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS11</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_28</name>
+      <text>Translation not at "B"</text>
+      <x>1</x>
+      <y>246</y>
+      <width>260</width>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="orange-42" red="192" green="132" blue="72">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=3.0 &amp;&amp; pv0&lt;4.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS11</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_29</name>
+      <text>Translation must be at either "A" or "B"</text>
+      <x>1</x>
+      <y>246</y>
+      <width>260</width>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="orange-42" red="192" green="132" blue="72">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=4.0 &amp;&amp; pv0&lt;5.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS11</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_23</name>
+      <x>271</x>
+      <y>246</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Mon: MAJOR/unack" red="192" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Mon: MAJOR/unack" red="192" green="0" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=5.0 &amp;&amp; pv0&lt;6.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS11</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_30</name>
+      <text>Translation cannot be at both "A" and "B"</text>
+      <x>1</x>
+      <y>246</y>
+      <width>260</width>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Mon: MAJOR/unack" red="192" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=5.0 &amp;&amp; pv0&lt;6.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS11</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_24</name>
+      <x>271</x>
+      <y>273</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=0.0 &amp;&amp; pv0&lt;2.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS12</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_31</name>
+      <text>Goniometer at "A"</text>
+      <x>1</x>
+      <y>273</y>
+      <width>260</width>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=0.0 &amp;&amp; pv0&lt;1.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS12</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_32</name>
+      <text>Goniometer at "B"</text>
+      <x>1</x>
+      <y>273</y>
+      <width>260</width>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=1.0 &amp;&amp; pv0&lt;2.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS12</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_25</name>
+      <x>271</x>
+      <y>273</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="orange-42" red="192" green="132" blue="72">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="orange-42" red="192" green="132" blue="72">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=2.0 &amp;&amp; pv0&lt;5.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS12</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_33</name>
+      <text>Goniometer not at "A"</text>
+      <x>1</x>
+      <y>273</y>
+      <width>260</width>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="orange-42" red="192" green="132" blue="72">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=2.0 &amp;&amp; pv0&lt;3.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS12</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_34</name>
+      <text>Goniometer not at "B"</text>
+      <x>1</x>
+      <y>273</y>
+      <width>260</width>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="orange-42" red="192" green="132" blue="72">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=3.0 &amp;&amp; pv0&lt;4.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS12</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_35</name>
+      <text>Goniometer must be at either "A" or "B"</text>
+      <x>1</x>
+      <y>273</y>
+      <width>260</width>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="orange-42" red="192" green="132" blue="72">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=4.0 &amp;&amp; pv0&lt;5.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS12</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_26</name>
+      <x>271</x>
+      <y>273</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Mon: MAJOR/unack" red="192" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Mon: MAJOR/unack" red="192" green="0" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=5.0 &amp;&amp; pv0&lt;6.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS12</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_36</name>
+      <text>Goniometer cannot be at both "A" and "B"</text>
+      <x>1</x>
+      <y>273</y>
+      <width>260</width>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Mon: MAJOR/unack" red="192" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=5.0 &amp;&amp; pv0&lt;6.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).VS12</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_27</name>
+      <x>521</x>
+      <y>179</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_28</name>
+      <x>638</x>
+      <y>85</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-4" red="187" green="187" blue="187">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_29</name>
+      <x>638</x>
+      <y>85</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=0.0 &amp;&amp; pv0&lt;1.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR1:RBV_LED</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_30</name>
+      <x>638</x>
+      <y>85</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="orange-42" red="192" green="132" blue="72">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="orange-42" red="192" green="132" blue="72">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=1.0 &amp;&amp; pv0&lt;2.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).A9</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_31</name>
+      <x>638</x>
+      <y>85</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Mon: MAJOR/unack" red="192" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Mon: MAJOR/unack" red="192" green="0" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=1.0 &amp;&amp; pv0&lt;2.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).A11</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_37</name>
+      <text>min</text>
+      <x>625</x>
+      <y>100</y>
+      <width>40</width>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="black-14" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_32</name>
+      <x>627</x>
+      <y>73</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_33</name>
+      <x>627</x>
+      <y>73</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=1.0 &amp;&amp; pv0&lt;2.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR1:RBV_LED</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_34</name>
+      <x>615</x>
+      <y>62</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_35</name>
+      <x>615</x>
+      <y>62</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=2.0 &amp;&amp; pv0&lt;3.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR1:RBV_LED</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_36</name>
+      <x>603</x>
+      <y>53</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_37</name>
+      <x>603</x>
+      <y>53</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=3.0 &amp;&amp; pv0&lt;4.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR1:RBV_LED</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_38</name>
+      <x>589</x>
+      <y>45</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_39</name>
+      <x>589</x>
+      <y>45</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=4.0 &amp;&amp; pv0&lt;5.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR1:RBV_LED</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_40</name>
+      <x>575</x>
+      <y>39</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_41</name>
+      <x>575</x>
+      <y>39</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=5.0 &amp;&amp; pv0&lt;6.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR1:RBV_LED</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_42</name>
+      <x>560</x>
+      <y>34</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_43</name>
+      <x>560</x>
+      <y>34</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=6.0 &amp;&amp; pv0&lt;7.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR1:RBV_LED</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_44</name>
+      <x>544</x>
+      <y>31</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_45</name>
+      <x>544</x>
+      <y>31</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=7.0 &amp;&amp; pv0&lt;8.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR1:RBV_LED</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_46</name>
+      <x>529</x>
+      <y>29</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-4" red="187" green="187" blue="187">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_47</name>
+      <x>529</x>
+      <y>29</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=8.0 &amp;&amp; pv0&lt;9.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR1:RBV_LED</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_48</name>
+      <x>529</x>
+      <y>29</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="orange-42" red="192" green="132" blue="72">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="orange-42" red="192" green="132" blue="72">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=1.0 &amp;&amp; pv0&lt;2.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR1.RLS0</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_38</name>
+      <text>max</text>
+      <x>516</x>
+      <y>42</y>
+      <width>40</width>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="black-14" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_49</name>
+      <x>514</x>
+      <y>29</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_50</name>
+      <x>514</x>
+      <y>29</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=9.0 &amp;&amp; pv0&lt;10.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR1:RBV_LED</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_51</name>
+      <x>499</x>
+      <y>31</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_52</name>
+      <x>499</x>
+      <y>31</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=10.0 &amp;&amp; pv0&lt;11.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR1:RBV_LED</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_53</name>
+      <x>483</x>
+      <y>34</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_54</name>
+      <x>483</x>
+      <y>34</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=11.0 &amp;&amp; pv0&lt;12.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR1:RBV_LED</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_55</name>
+      <x>468</x>
+      <y>39</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_56</name>
+      <x>468</x>
+      <y>39</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=12.0 &amp;&amp; pv0&lt;13.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR1:RBV_LED</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_57</name>
+      <x>454</x>
+      <y>45</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_58</name>
+      <x>454</x>
+      <y>45</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=13.0 &amp;&amp; pv0&lt;14.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR1:RBV_LED</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_59</name>
+      <x>440</x>
+      <y>53</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_60</name>
+      <x>440</x>
+      <y>53</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=14.0 &amp;&amp; pv0&lt;15.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR1:RBV_LED</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_61</name>
+      <x>428</x>
+      <y>62</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_62</name>
+      <x>428</x>
+      <y>62</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=15.0 &amp;&amp; pv0&lt;16.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR1:RBV_LED</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_63</name>
+      <x>416</x>
+      <y>73</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_64</name>
+      <x>416</x>
+      <y>73</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=16.0 &amp;&amp; pv0&lt;17.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR1:RBV_LED</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_65</name>
+      <x>405</x>
+      <y>85</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_66</name>
+      <x>405</x>
+      <y>85</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=17.0 &amp;&amp; pv0&lt;18.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR1:RBV_LED</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_67</name>
+      <x>396</x>
+      <y>97</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-4" red="187" green="187" blue="187">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_68</name>
+      <x>396</x>
+      <y>97</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=18.0 &amp;&amp; pv0&lt;19.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR1:RBV_LED</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_69</name>
+      <x>396</x>
+      <y>97</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=0.0 &amp;&amp; pv0&lt;1.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).A6</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_39</name>
+      <text>Platform</text>
+      <x>322</x>
+      <y>74</y>
+      <width>70</width>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="black-14" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_40</name>
+      <text>Horizontal</text>
+      <x>322</x>
+      <y>89</y>
+      <width>70</width>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="black-14" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_70</name>
+      <x>388</x>
+      <y>111</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_71</name>
+      <x>388</x>
+      <y>111</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=19.0 &amp;&amp; pv0&lt;20.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR1:RBV_LED</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_72</name>
+      <x>382</x>
+      <y>125</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_73</name>
+      <x>382</x>
+      <y>125</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=20.0 &amp;&amp; pv0&lt;21.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR1:RBV_LED</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_74</name>
+      <x>377</x>
+      <y>140</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_75</name>
+      <x>377</x>
+      <y>140</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=21.0 &amp;&amp; pv0&lt;22.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR1:RBV_LED</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_76</name>
+      <x>374</x>
+      <y>156</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_77</name>
+      <x>374</x>
+      <y>156</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=22.0 &amp;&amp; pv0&lt;23.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR1:RBV_LED</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_78</name>
+      <x>372</x>
+      <y>171</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_79</name>
+      <x>372</x>
+      <y>171</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=23.0 &amp;&amp; pv0&lt;24.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR1:RBV_LED</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_80</name>
+      <x>372</x>
+      <y>186</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_81</name>
+      <x>372</x>
+      <y>186</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=24.0 &amp;&amp; pv0&lt;25.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR1:RBV_LED</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_82</name>
+      <x>374</x>
+      <y>201</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_83</name>
+      <x>374</x>
+      <y>201</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=25.0 &amp;&amp; pv0&lt;26.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR1:RBV_LED</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_84</name>
+      <x>377</x>
+      <y>217</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_85</name>
+      <x>377</x>
+      <y>217</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=26.0 &amp;&amp; pv0&lt;27.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR1:RBV_LED</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_86</name>
+      <x>382</x>
+      <y>232</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_87</name>
+      <x>382</x>
+      <y>232</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=27.0 &amp;&amp; pv0&lt;28.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR1:RBV_LED</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_88</name>
+      <x>388</x>
+      <y>246</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_89</name>
+      <x>388</x>
+      <y>246</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=28.0 &amp;&amp; pv0&lt;29.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR1:RBV_LED</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_90</name>
+      <x>396</x>
+      <y>260</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_91</name>
+      <x>396</x>
+      <y>260</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=29.0 &amp;&amp; pv0&lt;30.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR1:RBV_LED</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_92</name>
+      <x>405</x>
+      <y>272</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_93</name>
+      <x>405</x>
+      <y>272</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=30.0 &amp;&amp; pv0&lt;31.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR1:RBV_LED</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_94</name>
+      <x>416</x>
+      <y>284</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-4" red="187" green="187" blue="187">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_95</name>
+      <x>416</x>
+      <y>284</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=31.0 &amp;&amp; pv0&lt;32.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR1:RBV_LED</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_96</name>
+      <x>416</x>
+      <y>284</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="orange-42" red="192" green="132" blue="72">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="orange-42" red="192" green="132" blue="72">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=1.0 &amp;&amp; pv0&lt;2.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR1.RHS0</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_41</name>
+      <text>min</text>
+      <x>420</x>
+      <y>274</y>
+      <width>40</width>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="black-14" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_97</name>
+      <x>428</x>
+      <y>295</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_98</name>
+      <x>428</x>
+      <y>295</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=32.0 &amp;&amp; pv0&lt;33.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR1:RBV_LED</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_99</name>
+      <x>440</x>
+      <y>304</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_100</name>
+      <x>440</x>
+      <y>304</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=33.0 &amp;&amp; pv0&lt;34.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR1:RBV_LED</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_101</name>
+      <x>454</x>
+      <y>312</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_102</name>
+      <x>454</x>
+      <y>312</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=34.0 &amp;&amp; pv0&lt;35.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR1:RBV_LED</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_103</name>
+      <x>468</x>
+      <y>318</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_104</name>
+      <x>468</x>
+      <y>318</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=35.0 &amp;&amp; pv0&lt;36.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR1:RBV_LED</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_105</name>
+      <x>483</x>
+      <y>323</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_106</name>
+      <x>483</x>
+      <y>323</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=36.0 &amp;&amp; pv0&lt;37.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR1:RBV_LED</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_107</name>
+      <x>499</x>
+      <y>326</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_108</name>
+      <x>499</x>
+      <y>326</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=37.0 &amp;&amp; pv0&lt;38.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR1:RBV_LED</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_109</name>
+      <x>514</x>
+      <y>328</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-4" red="187" green="187" blue="187">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_110</name>
+      <x>514</x>
+      <y>328</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=38.0 &amp;&amp; pv0&lt;39.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR1:RBV_LED</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_111</name>
+      <x>514</x>
+      <y>328</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="orange-42" red="192" green="132" blue="72">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="orange-42" red="192" green="132" blue="72">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=1.0 &amp;&amp; pv0&lt;2.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).A1</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_112</name>
+      <x>514</x>
+      <y>328</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Mon: MAJOR/unack" red="192" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Mon: MAJOR/unack" red="192" green="0" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=1.0 &amp;&amp; pv0&lt;2.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).A3</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_42</name>
+      <text>max</text>
+      <x>501</x>
+      <y>312</y>
+      <width>40</width>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="black-14" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_43</name>
+      <text>Crystal A</text>
+      <x>477</x>
+      <y>65</y>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_44</name>
+      <text>Crystal A</text>
+      <x>477</x>
+      <y>65</y>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=1.0 &amp;&amp; pv0&lt;2.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>=((`$(NAME).MODE`==1)&amp;&amp;(`$(NAME).REDY`==1))?1:0</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_45</name>
+      <text>Desired</text>
+      <x>413</x>
+      <y>105</y>
+      <height>18</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="black-14" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_46</name>
+      <text>Translate</text>
+      <x>477</x>
+      <y>105</y>
+      <height>18</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="black-14" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_47</name>
+      <text>Region</text>
+      <x>541</x>
+      <y>105</y>
+      <height>18</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="black-14" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_113</name>
+      <x>457</x>
+      <y>128</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_114</name>
+      <x>457</x>
+      <y>128</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=1.0 &amp;&amp; pv0&lt;2.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).MODE</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_115</name>
+      <x>521</x>
+      <y>128</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_116</name>
+      <x>521</x>
+      <y>128</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=1.0 &amp;&amp; pv0&lt;2.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR2.LLS</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_117</name>
+      <x>585</x>
+      <y>128</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_118</name>
+      <x>585</x>
+      <y>128</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=0.0 &amp;&amp; pv0&lt;1.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).A10</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_48</name>
+      <text>Crystal B</text>
+      <x>477</x>
+      <y>287</y>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_49</name>
+      <text>Crystal B</text>
+      <x>477</x>
+      <y>287</y>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=1.0 &amp;&amp; pv0&lt;2.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>=((`$(NAME).MODE`==2)&amp;&amp;(`$(NAME).REDY`==1))?1:0</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_119</name>
+      <x>457</x>
+      <y>229</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_120</name>
+      <x>457</x>
+      <y>229</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=2.0 &amp;&amp; pv0&lt;3.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).MODE</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_121</name>
+      <x>521</x>
+      <y>229</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_122</name>
+      <x>521</x>
+      <y>229</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=1.0 &amp;&amp; pv0&lt;2.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR2.HLS</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_123</name>
+      <x>585</x>
+      <y>229</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_124</name>
+      <x>585</x>
+      <y>229</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=0.0 &amp;&amp; pv0&lt;1.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME).A2</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_50</name>
+      <text>Gap A</text>
+      <x>636</x>
+      <y>166</y>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="black-14" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_125</name>
+      <x>425</x>
+      <y>166</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-4" red="187" green="187" blue="187">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_126</name>
+      <x>425</x>
+      <y>166</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=1.0 &amp;&amp; pv0&lt;2.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR5.LLS</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="progressbar" version="2.0.0">
+      <name>EDM activeBarClass</name>
+      <pv_name>$(NAME):MOTOR5.RBV</pv_name>
+      <x>442</x>
+      <y>162</y>
+      <width>170</width>
+      <fill_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </fill_color>
+      <background_color>
+        <color name="grey-4" red="187" green="187" blue="187">
+        </color>
+      </background_color>
+      <limits_from_pv>false</limits_from_pv>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_127</name>
+      <x>617</x>
+      <y>166</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-4" red="187" green="187" blue="187">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_128</name>
+      <x>617</x>
+      <y>166</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="orange-42" red="192" green="132" blue="72">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="orange-42" red="192" green="132" blue="72">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=1.0 &amp;&amp; pv0&lt;2.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR5.HLS</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_51</name>
+      <text>Gap B</text>
+      <x>636</x>
+      <y>191</y>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="black-14" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_129</name>
+      <x>425</x>
+      <y>191</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-4" red="187" green="187" blue="187">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_130</name>
+      <x>425</x>
+      <y>191</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=1.0 &amp;&amp; pv0&lt;2.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR6.LLS</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="progressbar" version="2.0.0">
+      <name>EDM activeBarClass_1</name>
+      <pv_name>$(NAME):MOTOR6.RBV</pv_name>
+      <x>442</x>
+      <y>187</y>
+      <width>170</width>
+      <fill_color>
+        <color name="Controller/alt" red="0" green="255" blue="255">
+        </color>
+      </fill_color>
+      <background_color>
+        <color name="grey-4" red="187" green="187" blue="187">
+        </color>
+      </background_color>
+      <limits_from_pv>false</limits_from_pv>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_131</name>
+      <x>617</x>
+      <y>191</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="grey-7" red="145" green="145" blue="145">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-4" red="187" green="187" blue="187">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass_132</name>
+      <x>617</x>
+      <y>191</y>
+      <width>12</width>
+      <height>12</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="orange-42" red="192" green="132" blue="72">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="orange-42" red="192" green="132" blue="72">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=1.0 &amp;&amp; pv0&lt;2.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(NAME):MOTOR6.HLS</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_52</name>
+      <text>min</text>
+      <x>412</x>
+      <y>207</y>
+      <width>40</width>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="black-14" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_53</name>
+      <text>max</text>
+      <x>604</x>
+      <y>207</y>
+      <width>40</width>
+      <height>14</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="black-14" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="combo" version="2.0.0">
+      <name>EDM activeMenuButtonClass_4</name>
+      <pv_name>$(NAME).MODE</pv_name>
+      <x>487</x>
+      <y>254</y>
+      <width>80</width>
+      <height>24</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-4" red="187" green="187" blue="187">
+        </color>
+      </background_color>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_54</name>
+      <text>Goniometer</text>
+      <x>487</x>
+      <y>351</y>
+      <width>80</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="black-14" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>EDM activeXTextDspClass</name>
+      <pv_name>$(NAME):MOTOR1.VAL</pv_name>
+      <x>487</x>
+      <y>374</y>
+      <width>80</width>
+      <height>22</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-4" red="187" green="187" blue="187">
+        </color>
+      </background_color>
+      <format>1</format>
+      <precision>6</precision>
+      <show_units>false</show_units>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_55</name>
+      <text>Brag Angle</text>
+      <x>487</x>
+      <y>430</y>
+      <width>80</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="black-14" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>EDM activeXTextDspClass_1</name>
+      <pv_name>$(NAME).BANG</pv_name>
+      <x>487</x>
+      <y>404</y>
+      <width>80</width>
+      <height>22</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-4" red="187" green="187" blue="187">
+        </color>
+      </background_color>
+      <format>1</format>
+      <precision>6</precision>
+      <show_units>false</show_units>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_56</name>
+      <text>A</text>
+      <x>41</x>
+      <y>377</y>
+      <width>20</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="black-14" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_57</name>
+      <text>B</text>
+      <x>41</x>
+      <y>407</y>
+      <width>20</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="black-14" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_58</name>
+      <text>Gap</text>
+      <x>61</x>
+      <y>351</y>
+      <width>70</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="black-14" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM activeXTextDspClass:noedit</name>
+      <pv_name>$(NAME):MOTOR5.REP</pv_name>
+      <x>61</x>
+      <y>374</y>
+      <width>70</width>
+      <height>22</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-4" red="187" green="187" blue="187">
+        </color>
+      </background_color>
+      <format>1</format>
+      <precision>0</precision>
+      <show_units>false</show_units>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM activeXTextDspClass:noedit_1</name>
+      <pv_name>$(NAME):MOTOR6.REP</pv_name>
+      <x>61</x>
+      <y>404</y>
+      <width>70</width>
+      <height>22</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-4" red="187" green="187" blue="187">
+        </color>
+      </background_color>
+      <format>1</format>
+      <precision>0</precision>
+      <show_units>false</show_units>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_59</name>
+      <text>Roll</text>
+      <x>146</x>
+      <y>351</y>
+      <width>70</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="black-14" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM activeXTextDspClass:noedit_2</name>
+      <pv_name>BL172:MONO_MC1:MOTOR6.REP</pv_name>
+      <x>146</x>
+      <y>374</y>
+      <width>70</width>
+      <height>22</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-4" red="187" green="187" blue="187">
+        </color>
+      </background_color>
+      <format>1</format>
+      <precision>0</precision>
+      <show_units>false</show_units>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM activeXTextDspClass:noedit_3</name>
+      <pv_name>BL172:MONO_MC1:MOTOR8.REP</pv_name>
+      <x>146</x>
+      <y>404</y>
+      <width>70</width>
+      <height>22</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-4" red="187" green="187" blue="187">
+        </color>
+      </background_color>
+      <format>1</format>
+      <precision>0</precision>
+      <show_units>false</show_units>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_60</name>
+      <text>Pitch</text>
+      <x>231</x>
+      <y>351</y>
+      <width>70</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="black-14" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM activeXTextDspClass:noedit_4</name>
+      <pv_name>BL172:MONO_MC1:MOTOR5.REP</pv_name>
+      <x>231</x>
+      <y>374</y>
+      <width>70</width>
+      <height>22</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-4" red="187" green="187" blue="187">
+        </color>
+      </background_color>
+      <format>1</format>
+      <precision>0</precision>
+      <show_units>false</show_units>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM activeXTextDspClass:noedit_5</name>
+      <pv_name>BL172:MONO_MC1:MOTOR7.REP</pv_name>
+      <x>231</x>
+      <y>404</y>
+      <width>70</width>
+      <height>22</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-4" red="187" green="187" blue="187">
+        </color>
+      </background_color>
+      <format>1</format>
+      <precision>0</precision>
+      <show_units>false</show_units>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass_61</name>
+      <text>CapSensor</text>
+      <x>316</x>
+      <y>351</y>
+      <width>70</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="black-14" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM activeXTextDspClass:noedit_6</name>
+      <pv_name>BL172:MONO_MC1:MOTOR7.ADCV</pv_name>
+      <x>316</x>
+      <y>404</y>
+      <width>70</width>
+      <height>22</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="green-18" red="0" green="160" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-4" red="187" green="187" blue="187">
+        </color>
+      </background_color>
+      <format>1</format>
+      <precision>0</precision>
+      <show_units>false</show_units>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+</display>
