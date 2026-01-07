@@ -41,7 +41,6 @@
   </widget>
   <widget type="group" version="3.0.0">
     <name>EDM Group 0</name>
-    <x>-1</x>
     <y>21</y>
     <width>730</width>
     <height>453</height>
@@ -5277,7 +5276,6 @@
   </widget>
   <widget type="group" version="3.0.0">
     <name>EDM Group 1</name>
-    <x>-1</x>
     <y>21</y>
     <width>730</width>
     <height>453</height>
@@ -7055,6 +7053,7 @@
       <name>EDM relatedDisplayClass</name>
       <actions>
         <action type="open_display">
+          <description>Open Display</description>
           <file>m8_limits.bob</file>
           <target>tab</target>
         </action>
@@ -7076,11 +7075,11 @@
         <color name="grey-4" red="187" green="187" blue="187">
         </color>
       </background_color>
+      <tooltip>$(actions)</tooltip>
     </widget>
   </widget>
   <widget type="group" version="3.0.0">
     <name>EDM Group 2</name>
-    <x>-1</x>
     <y>21</y>
     <width>730</width>
     <height>453</height>
@@ -7970,6 +7969,142 @@
       <precision>0</precision>
       <show_units>false</show_units>
     </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button</name>
+      <text>Crystal</text>
+      <x>15</x>
+      <y>407</y>
+      <width>80</width>
+      <height>20</height>
+      <foreground_color>
+        <color name="Write_Background" red="128" green="255" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_1</name>
+      <text>Translation</text>
+      <x>101</x>
+      <y>407</y>
+      <width>80</width>
+      <height>20</height>
+      <foreground_color>
+        <color name="Write_Background" red="128" green="255" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_2</name>
+      <text>Gap A</text>
+      <x>186</x>
+      <y>407</y>
+      <width>80</width>
+      <height>20</height>
+      <foreground_color>
+        <color name="Write_Background" red="128" green="255" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_3</name>
+      <text>Gap B</text>
+      <x>271</x>
+      <y>407</y>
+      <width>80</width>
+      <height>20</height>
+      <foreground_color>
+        <color name="Write_Background" red="128" green="255" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_4</name>
+      <text>pita</text>
+      <x>357</x>
+      <y>407</y>
+      <width>80</width>
+      <height>20</height>
+      <foreground_color>
+        <color name="Write_Background" red="128" green="255" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_5</name>
+      <text>rolla</text>
+      <x>444</x>
+      <y>407</y>
+      <width>80</width>
+      <height>20</height>
+      <foreground_color>
+        <color name="Write_Background" red="128" green="255" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_6</name>
+      <text>pitb</text>
+      <x>531</x>
+      <y>407</y>
+      <width>80</width>
+      <height>20</height>
+      <foreground_color>
+        <color name="Write_Background" red="128" green="255" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_7</name>
+      <text>rollb</text>
+      <x>624</x>
+      <y>407</y>
+      <width>80</width>
+      <height>20</height>
+      <foreground_color>
+        <color name="Write_Background" red="128" green="255" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
   </widget>
   <widget type="rectangle" version="2.0.0">
     <name>EDM activeRectangleClass</name>
@@ -8527,6 +8662,7 @@
     <name>EDM relatedDisplayClass</name>
     <actions>
       <action type="open_display">
+        <description>Open Display</description>
         <file>csm_main.bob</file>
         <macros>
           <MOTOR>$(NAME):MOTOR1</MOTOR>
@@ -8552,11 +8688,13 @@
       </color>
     </background_color>
     <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
   </widget>
   <widget type="action_button" version="3.0.0">
     <name>EDM relatedDisplayClass</name>
     <actions>
       <action type="open_display">
+        <description>Open Display</description>
         <file>csm_main.bob</file>
         <macros>
           <MOTOR>$(NAME):MOTOR2</MOTOR>
@@ -8582,11 +8720,13 @@
       </color>
     </background_color>
     <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
   </widget>
   <widget type="action_button" version="3.0.0">
     <name>EDM relatedDisplayClass</name>
     <actions>
       <action type="open_display">
+        <description>Open Display</description>
         <file>csm_main.bob</file>
         <macros>
           <MOTOR>$(NAME):MOTOR5</MOTOR>
@@ -8612,11 +8752,13 @@
       </color>
     </background_color>
     <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
   </widget>
   <widget type="action_button" version="3.0.0">
     <name>EDM relatedDisplayClass</name>
     <actions>
       <action type="open_display">
+        <description>Open Display</description>
         <file>csm_main.bob</file>
         <macros>
           <MOTOR>$(NAME):MOTOR6</MOTOR>
@@ -8642,11 +8784,13 @@
       </color>
     </background_color>
     <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
   </widget>
   <widget type="action_button" version="3.0.0">
     <name>EDM relatedDisplayClass</name>
     <actions>
       <action type="open_display">
+        <description>Open Display</description>
         <file>motor_main.bob</file>
         <macros>
           <MOTOR>BL172:MONO_PICO:MOTOR1</MOTOR>
@@ -8672,11 +8816,13 @@
       </color>
     </background_color>
     <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
   </widget>
   <widget type="action_button" version="3.0.0">
     <name>EDM relatedDisplayClass</name>
     <actions>
       <action type="open_display">
+        <description>Open Display</description>
         <file>motor_main.bob</file>
         <macros>
           <MOTOR>BL172:MONO_PICO:MOTOR2</MOTOR>
@@ -8702,11 +8848,13 @@
       </color>
     </background_color>
     <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
   </widget>
   <widget type="action_button" version="3.0.0">
     <name>EDM relatedDisplayClass</name>
     <actions>
       <action type="open_display">
+        <description>Open Display</description>
         <file>motor_main.bob</file>
         <macros>
           <MOTOR>BL172:MONO_PICO:MOTOR3</MOTOR>
@@ -8732,11 +8880,13 @@
       </color>
     </background_color>
     <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
   </widget>
   <widget type="action_button" version="3.0.0">
     <name>EDM relatedDisplayClass</name>
     <actions>
       <action type="open_display">
+        <description>Open Display</description>
         <file>motor_main.bob</file>
         <macros>
           <MOTOR>BL172:MONO_PICO:MOTOR4</MOTOR>
@@ -8762,11 +8912,13 @@
       </color>
     </background_color>
     <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
   </widget>
   <widget type="action_button" version="3.0.0">
     <name>EDM relatedDisplayClass</name>
     <actions>
       <action type="open_display">
+        <description>Open Display</description>
         <file>csm_main.bob</file>
         <macros>
           <MOTOR>$(NAME):MOTOR7</MOTOR>
@@ -8792,5 +8944,6 @@
       </color>
     </background_color>
     <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
   </widget>
 </display>

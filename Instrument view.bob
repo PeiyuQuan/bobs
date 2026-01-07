@@ -6,7 +6,7 @@
     <x>10</x>
     <y>20</y>
     <width>721</width>
-    <height>444</height>
+    <height>500</height>
     <line_width>1</line_width>
     <line_color>
       <color name="GLOBAL canvas" red="200" green="200" blue="200">
@@ -22,7 +22,7 @@
     <x>10</x>
     <y>20</y>
     <width>730</width>
-    <height>453</height>
+    <height>500</height>
     <style>3</style>
     <transparent>true</transparent>
     <rules>
@@ -5235,6 +5235,141 @@
       <show_units>false</show_units>
       <horizontal_alignment>1</horizontal_alignment>
       <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button</name>
+      <text>Crystal</text>
+      <x>22</x>
+      <y>460</y>
+      <width>80</width>
+      <height>20</height>
+      <foreground_color>
+        <color name="Write_Background" red="128" green="255" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_1</name>
+      <text>Translation</text>
+      <x>108</x>
+      <y>460</y>
+      <width>80</width>
+      <height>20</height>
+      <foreground_color>
+        <color name="Write_Background" red="128" green="255" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_2</name>
+      <text>Gap A</text>
+      <x>193</x>
+      <y>460</y>
+      <width>80</width>
+      <height>20</height>
+      <foreground_color>
+        <color name="Write_Background" red="128" green="255" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_3</name>
+      <text>Gap B</text>
+      <x>278</x>
+      <y>460</y>
+      <width>80</width>
+      <height>20</height>
+      <foreground_color>
+        <color name="Write_Background" red="128" green="255" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_4</name>
+      <text>pita</text>
+      <x>364</x>
+      <y>460</y>
+      <width>80</width>
+      <height>20</height>
+      <foreground_color>
+        <color name="Write_Background" red="128" green="255" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_5</name>
+      <text>rolla</text>
+      <x>451</x>
+      <y>460</y>
+      <width>80</width>
+      <height>20</height>
+      <foreground_color>
+        <color name="Write_Background" red="128" green="255" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_6</name>
+      <text>pitb</text>
+      <x>538</x>
+      <y>460</y>
+      <width>80</width>
+      <height>20</height>
+      <foreground_color>
+        <color name="Write_Background" red="128" green="255" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_7</name>
+      <text>rollb</text>
+      <x>631</x>
+      <y>460</y>
+      <width>80</width>
+      <height>20</height>
+      <foreground_color>
+        <color name="Write_Background" red="128" green="255" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
     </widget>
   </widget>
 </display>
