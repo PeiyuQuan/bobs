@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2025-04-29 20:30:35 by epics-->
+<display version="2.0.0">
+  <name>13XPS</name>
+  <x>420</x>
+  <y>39</y>
+  <width>493</width>
+  <height>240</height>
+  <background_color>
+    <color red="187" green="187" blue="187">
+    </color>
+  </background_color>
+  <grid_visible>false</grid_visible>
+  <grid_step_x>5</grid_step_x>
+  <widget type="rectangle" version="2.0.0">
+    <name>rectangle #6</name>
+    <x>30</x>
+    <y>12</y>
+    <width>310</width>
+    <height>40</height>
+    <line_color>
+      <color red="153" green="255" blue="255">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="153" green="255" blue="255">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #9</name>
+    <text>GSECARS XPS test</text>
+    <x>47</x>
+    <y>20</y>
+    <width>276</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>related display #12</name>
+    <actions>
+      <action type="open_display">
+        <description>Scan 1</description>
+        <file>scan_more.opi</file>
+        <macros>
+          <P>13XPS:</P>
+          <S>scan1</S>
+          <N>1</N>
+        </macros>
+        <target>tab</target>
+      </action>
+      <action type="open_display">
+        <description>Scan 2</description>
+        <file>scan_more.opi</file>
+        <macros>
+          <P>13XPS:</P>
+          <S>scan2</S>
+          <N>2</N>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>13</x>
+    <y>121</y>
+    <width>75</width>
+    <height>24</height>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #16</name>
+    <text>Scan</text>
+    <x>93</x>
+    <y>121</y>
+    <width>37</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #19</name>
+    <text>Motors</text>
+    <x>93</x>
+    <y>94</y>
+    <width>49</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>related display #22</name>
+    <actions>
+      <action type="open_display">
+        <description>Test motors</description>
+        <file>6motors.opi</file>
+        <macros>
+          <P>13XPS:</P>
+          <TITLE>XPS_Test</TITLE>
+          <M1>m1</M1>
+          <M2>m2</M2>
+          <M3>m3</M3>
+          <M4>m4</M4>
+          <M5>m5</M5>
+          <M6>m6</M6>
+        </macros>
+        <target>tab</target>
+      </action>
+      <action type="open_display">
+        <description>Profile moves</description>
+        <file>profileMove.opi</file>
+        <macros>
+          <P>13XPS:</P>
+          <R>Prof1:</R>
+          <TITLE>Profile_Move</TITLE>
+          <M1>m1</M1>
+          <M2>m2</M2>
+          <M3>m3</M3>
+        </macros>
+        <target>tab</target>
+      </action>
+      <action type="open_display">
+        <description>Table record</description>
+        <file>table.opi</file>
+        <macros>
+          <P>13XPS:</P>
+          <Q>XAS:T1</Q>
+          <T>XAS:t1</T>
+          <M0X>m4</M0X>
+          <M0Y>m3</M0Y>
+          <M1Y>m2</M1Y>
+          <M2X>m5</M2X>
+          <M2Y>m1</M2Y>
+          <M2Z>junk</M2Z>
+        </macros>
+        <target>tab</target>
+      </action>
+      <action type="open_display">
+        <description>Eiger Detector</description>
+        <file>eigerDetector.opi</file>
+        <macros>
+          <P>BL172:eiger1:</P>
+          <R>asyn1:</R>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>13</x>
+    <y>94</y>
+    <width>75</width>
+    <height>24</height>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>related display #27</name>
+    <actions>
+      <action type="open_display">
+        <description>asyn record</description>
+        <file>asynRecord.opi</file>
+        <macros>
+          <P>13XPS:</P>
+          <R>asyn1</R>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>13</x>
+    <y>175</y>
+    <width>75</width>
+    <height>24</height>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #30</name>
+    <text>IOC status</text>
+    <x>93</x>
+    <y>175</y>
+    <width>76</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>related display #33</name>
+    <actions>
+      <action type="open_display">
+        <description>Save/restore status</description>
+        <file>save_restoreStatus_more.opi</file>
+        <macros>
+          <P>13XPS:</P>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>13</x>
+    <y>148</y>
+    <width>75</width>
+    <height>24</height>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #36</name>
+    <text>asyn Records</text>
+    <x>93</x>
+    <y>148</y>
+    <width>98</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <auto_size>true</auto_size>
+  </widget>
+</display>
